@@ -1,0 +1,366 @@
+﻿data_registro,qtd_cozinheiros,qtd_garcons,turno_funcionamento,pedidos_totais_sistema,faturamento_informado_rs,ocorrencia_operacional,qtd_cozinheiros_escala,tempo_medio_preparo_bruto,alimentos_descartados_bruto,observacao_cozinha,qtd_garcons_escala,total_mesas_atendidas,comandas_manuais_perdidas,nivel_satisfacao_relatado
+01/01/2025,4.0,10,"Almoço, Jantar e Happy Hour",Indefinido,R$ 3409.08 (ERRO),Queda de rede,4.0,33.7 minutos (atrasado),5490g,Falta de insumo básico,10,120,0,Bom
+02/01/2025,4.0,,Almoço e Jantar,65,2738.9,Nenhum,4.0,39.6,10.67,Falta de insumo básico,,130,N/A,Ruim
+03/01/2025,2.0,3,Jantar,20,1200,Falta de energia parcial,2.0,41.0,11.55,Normal,3,40,0,Regular
+04/01/2025,3.0,8,Apenas Jantar,127,6203.04,Cliente desistiu na fila,3.0,27.0,4.21,Equipamento com defeito,8,254,3,Bom
+05/01/2025,4.0,6,"Almoço, Jantar e Happy Hour",85,5382.57,Nenhum,4.0,39.0,6.22,Cozinha sobrecarregada,6,255,1,Regular
+06/01/2025,5.0,5,Almoço e Jantar,53,2438.48,Nenhum,5.0,24.7,6.78,Cozinha sobrecarregada,5,159,,Ruim
+07/01/2025,3.0,5,Apenas Almoço,49,2775.65,Nenhum,3.0,45.8,4.23,Normal,5,147,,Bom
+08/01/2025,6.0,8,Almoço e Jantar,61,3975.97,Nenhum,6.0,38.6,9.29,Equipamento com defeito,8,183,,Regular
+09/01/2025,5.0,4,"Almoço, Jantar e Happy Hour",63,3208.59,Queda de rede,5.0,17.2,4.38,Equipamento com defeito,4,126,1,Bom
+10/01/2025,3.0,7,Apenas Almoço,67,2940.2,Nenhum,3.0,34.1,10.35,Cozinha sobrecarregada,7,134,1,Bom
+11/01/2025,4.0,5,Almoço,121,4945.71,Nenhum,4.0,31.6,3.99,Estoque desorganizado,5,242,3,Regular
+12/01/2025,3.0,5,Jantar,98,5560.58,Nenhum,3.0,20.5,4.43,Estoque desorganizado,5,294,0,Regular
+13/01/2025,3.0,5,Almoço,48,2768.55,Falta de energia parcial,3.0,30.2,7.19,Falta de insumo básico,5,144,1,Bom
+14/01/2025,5.0,7,Apenas Jantar,94,3920.46,Nenhum,5.0,33.9,4.31,Cozinha sobrecarregada,7,188,1,Excelente
+15/01/2025,8.0,3,Almoço e Jantar,73,3217.8,Erro de lançamento,8.0,44.1,6.93,Normal,3,146,N/A,Regular
+16/01/2025,3.0,7,Apenas Jantar,40,2608.37,Erro de lançamento,3.0,29.8,3.49,Normal,7,80,1,Regular
+17/01/2025,2.0,4,Apenas Almoço,65,2898.01,Sistema instável,2.0,25.8,8.95,Estoque desorganizado,4,130,0,Bom
+18/01/2025,4.0,7,Apenas Almoço,113,6309.89,Erro de lançamento,4.0,39.3,3.08,Normal,7,339,0,Regular
+19/01/2025,5.0,8,"Almoço, Jantar e Happy Hour",128,5128.23,Nenhum,5.0,38.3,6.61,Normal,8,256,0,Regular
+20/01/2025,3.0,6,Almoço e Jantar,60,2908.73,Nenhum,3.0,14.5,7.91,Estoque desorganizado,6,180,N/A,Excelente
+21/01/2025,4.0,3,"Almoço, Jantar e Happy Hour",66,4079.63,Sistema instável,4.0,51.5,11.63,Previsão errada do chefe,3,198,2,Regular
+22/01/2025,4.0,5,Jantar,44,2761.2,Nenhum,4.0,28.8,10.66,Normal,5,88,N/A,Regular
+23/01/2025,2.0,6,Apenas Jantar,54,2393.87,Nenhum,2.0,34.9,11.13,Normal,6,108,2,Regular
+24/01/2025,3.0,4,Apenas Jantar,45,2937.73,Nenhum,3.0,15.2,9.03,Normal,4,135,0,Bom
+25/01/2025,3.0,7,Apenas Almoço,140,5897.53,Nenhum,3.0,43.6,5.4,Normal,7,280,0,Regular
+26/01/2025,,3,Apenas Jantar,103,5905.23,Nenhum,,32.4,4.28,Cozinha sobrecarregada,3,206,0,Bom
+27/01/2025,4.0,6,Apenas Jantar,83,4422.28,Impressora da cozinha falhou,4.0,12.3,4.24,Normal,6,166,0,Regular
+28/01/2025,4.0,6,Almoço,61,3954.69,Sistema instável,4.0,27.8,7.91,Previsão errada do chefe,6,122,N/A,Bom
+29/01/2025,5.0,4,Jantar,64,2865.34,Erro de lançamento,5.0,24.3,5.67,Cozinha sobrecarregada,4,128,1,Não informado
+30/01/2025,4.0,6,Almoço e Jantar,39,1578.63,Nenhum,4.0,66.4,8.01,Normal,6,117,0,Regular
+31/01/2025,6.0,7,Almoço e Jantar,36,,Nenhum,6.0,29.2,5.94,Previsão errada do chefe,7,72,0,Regular
+01/02/2025,5.0,6,Almoço,80,3814.65,Sistema instável,5.0,31.4,8.82,Normal,6,240,0,Regular
+02/02/2025,4.0,6,"Almoço, Jantar e Happy Hour",110,5787.75,Comanda perdida,4.0,28.3,10.79,Normal,6,220,0,Ruim
+03/02/2025,3.0,6,Apenas Almoço,72,3510.83,Cliente desistiu na fila,3.0,44.1,7.73,Equipamento com defeito,6,144,2,Não informado
+04/02/2025,8.0,5,Almoço e Jantar,91,3681.27,Nenhum,8.0,33.7,9.73,Normal,5,273,0,Regular
+05/02/2025,3.0,5,Apenas Jantar,59,3606.52,Nenhum,3.0,39.5,10.07,Cozinha sobrecarregada,5,177,3,Regular
+06/02/2025,6.0,4,"Almoço, Jantar e Happy Hour",33,1358.11,Comanda perdida,6.0,21.0,3.55,Cozinha sobrecarregada,4,99,1,Regular
+07/02/2025,5.0,3,Apenas Almoço,61,2886.97,Nenhum,5.0,40.4,3.23,Normal,3,122,1,Regular
+08/02/2025,4.0,5,Almoço,123,6285.01,Queda de rede,4.0,26.3,10.83,Normal,5,246,0,Bom
+09/02/2025,6.0,6,"Almoço, Jantar e Happy Hour",99,5214.03,Impressora da cozinha falhou,6.0,27.4,8.2,Previsão errada do chefe,6,297,0,nan
+10/02/2025,2.0,5,Jantar,39,2373.05,Nenhum,2.0,56.1,5980g,Falta de insumo básico,5,78,0,Regular
+11/02/2025,3.0,6,Apenas Almoço,84,3808.69,Sistema instável,3.0,25.9,5.45,Normal,6,252,1,Regular
+12/02/2025,5.0,6,Apenas Almoço,58,2819.26,Nenhum,5.0,30.7,9.71,Previsão errada do chefe,6,174,0,Não informado
+13/02/2025,6.0,3,Almoço,82,3406.36,Nenhum,6.0,28.1,11.44,Cozinha sobrecarregada,3,246,N/A,Ruim
+14/02/2025,3.0,6,Apenas Jantar,62,2935.83,Nenhum,3.0,33.1,8.0,Normal,6,186,0,Ruim
+15/02/2025,3.0,7,Almoço,101,R$ 5330.22 (ERRO),Erro de lançamento,3.0,51.1,10.73,Normal,7,303,0,Regular
+16/02/2025,4.0,6,Almoço e Jantar,110,7047.13,Nenhum,4.0,34.6,3.06,Falta de insumo básico,6,220,0,Ruim
+17/02/2025,3.0,4,Almoço,47,2941.19,Cliente desistiu na fila,3.0,38.0,5.05,Previsão errada do chefe,4,94,1,Bom
+18/02/2025,5.0,5,Jantar,88,3660.13,Nenhum,5.0,22.1,10.24,Normal,5,176,3,Ruim
+19/02/2025,4.0,5,Almoço e Jantar,82,3572.36,Sistema instável,4.0,41.2,6.96,Cozinha sobrecarregada,5,164,N/A,Bom
+20/02/2025,4.0,5,Almoço,53,3083.88,Sistema instável,4.0,24.7 minutos (atrasado),8.8,Normal,5,106,0,Bom
+21/02/2025,4.0,4,Almoço,75,4316.34,Erro de lançamento,4.0,60.9,5.95,Normal,4,150,0,Bom
+22/02/2025,2.0,7,"Almoço, Jantar e Happy Hour",80,5241.71,Nenhum,2.0,24.8,4.57,Falta de insumo básico,7,240,2,Bom
+23/02/2025,3.0,8,Jantar,68,4220.39,Impressora da cozinha falhou,3.0,45.9,4.34,Falta de insumo básico,8,204,1,Bom
+24/02/2025,4.0,4,Almoço e Jantar,24,1200,Sistema instável,4.0,43.4,11.73,Normal,4,72,N/A,Regular
+25/02/2025,3.0,4,Apenas Almoço,54,3263.17,Nenhum,3.0,42.8,3.6,Normal,4,108,2,Excelente
+26/02/2025,4.0,3,Almoço e Jantar,70,2900.34,Sistema instável,4.0,39.1,7.17,Cozinha sobrecarregada,3,210,0,Não informado
+27/02/2025,3.0,5,Apenas Almoço,36,2165.17,Nenhum,3.0,26.2,5.47,Normal,5,108,0,Regular
+28/02/2025,2.0,7,Apenas Almoço,24,1513.81,Nenhum,2.0,21.0,5.82,Normal,7,48,0,Bom
+01/03/2025,3.0,5,"Almoço, Jantar e Happy Hour",104,5324.35,Nenhum,3.0,48.2,5.7,Normal,5,208,2,Bom
+02/03/2025,4.0,5,Almoço e Jantar,Indefinido,,Falta de energia parcial,4.0,34.1,8.1,Normal,5,120,0,Ruim
+03/03/2025,6.0,5,Jantar,61,3249.66,Nenhum,6.0,17.4,3.66,Cozinha sobrecarregada,5,122,0,Bom
+04/03/2025,6.0,5,Apenas Almoço,72,3935.43,Erro de lançamento,6.0,34.9,6.8,Normal,5,216,0,Bom
+05/03/2025,4.0,10,Almoço,48,3059.88,Nenhum,4.0,28.1,6.92,Normal,10,96,0,Não informado
+06/03/2025,4.0,3,Apenas Jantar,49,2798.92,Impressora da cozinha falhou,4.0,20.8,9.15,Cozinha sobrecarregada,3,147,1,Ruim
+07/03/2025,4.0,5,Apenas Jantar,46,2760.94,Nenhum,4.0,38.4,7.26,Normal,5,138,0,Excelente
+08/03/2025,3.0,3,Apenas Jantar,115,6512.73,Nenhum,3.0,22.5,9.26,Normal,3,230,0,Regular
+09/03/2025,3.0,5,Almoço e Jantar,117,5032.27,Comanda perdida,3.0,39.7,11.67,Estoque desorganizado,5,351,0,Bom
+10/03/2025,2.0,6,Apenas Almoço,68,3271.42,Nenhum,2.0,19.5,8.73,Normal,6,136,0,Excelente
+11/03/2025,4.0,7,Almoço,28,1512.82,Nenhum,4.0,30.4,3.61,Normal,7,84,1,Regular
+12/03/2025,5.0,8,Jantar,38,2384.45,Nenhum,5.0,50.3,6.85,Estoque desorganizado,8,76,N/A,Bom
+13/03/2025,4.0,5,"Almoço, Jantar e Happy Hour",40,2551.46,Nenhum,4.0,24.1,4.69,Normal,5,120,1,Regular
+14/03/2025,4.0,5,"Almoço, Jantar e Happy Hour",66,4052.29,Nenhum,4.0,28.6,8.26,Previsão errada do chefe,5,132,0,Regular
+15/03/2025,4.0,7,Almoço e Jantar,94,4454.96,Falta de energia parcial,4.0,45.7,10.3,Normal,7,282,2,Regular
+16/03/2025,4.0,6,Apenas Jantar,85,4347.59,Nenhum,4.0,17.5,7.95,Normal,6,170,0,Regular
+17/03/2025,3.0,5,Almoço,72,3350.47,Queda de rede,3.0,32.8,6.02,Equipamento com defeito,5,216,0,Regular
+18/03/2025,4.0,6,Jantar,74,3527.56,Nenhum,4.0,34.5,10.03,Normal,6,148,0,Bom
+19/03/2025,4.0,7,Apenas Jantar,41,2592.75,Nenhum,4.0,33.0,11.75,Normal,7,82,0,Bom
+20/03/2025,5.0,4,"Almoço, Jantar e Happy Hour",84,4061.95,Nenhum,5.0,35.7,10.57,Normal,4,168,0,Não informado
+21/03/2025,2.0,6,Almoço e Jantar,84,3664.82,Queda de rede,2.0,23.7,5.76,Normal,6,252,0,Bom
+22/03/2025,5.0,5,Almoço,80,4971.17,Nenhum,5.0,23.5,6670g,Normal,5,160,N/A,Bom
+23/03/2025,4.0,5,"Almoço, Jantar e Happy Hour",161,6800.11,Nenhum,4.0,42.3,3.82,Normal,5,483,2,Regular
+24/03/2025,4.0,8,Almoço e Jantar,43,2336.44,Cliente desistiu na fila,4.0,24.1,5.1,Falta de insumo básico,8,129,0,Regular
+25/03/2025,4.0,5,Almoço e Jantar,53,3296.21,Erro de lançamento,4.0,31.6,9.99,Falta de insumo básico,5,106,0,Regular
+26/03/2025,,,Almoço e Jantar,49,2952.8,Nenhum,,20.8,8.81,Normal,,147,1,Regular
+27/03/2025,3.0,6,"Almoço, Jantar e Happy Hour",75,3227.5,Nenhum,3.0,26.7,9.09,Normal,6,225,0,Excelente
+28/03/2025,3.0,6,Almoço,74,3006.53,Impressora da cozinha falhou,3.0,23.8,7.21,Normal,6,222,3,Regular
+29/03/2025,3.0,,Jantar,134,5657.32,Falta de energia parcial,3.0,40.7,10.5,Normal,,402,0,nan
+30/03/2025,2.0,4,Apenas Almoço,110,5559.52,Nenhum,2.0,29.7,3.37,Normal,4,330,1,Regular
+31/03/2025,6.0,4,Almoço,71,3303.08,Comanda perdida,6.0,31.5,5.11,Cozinha sobrecarregada,4,213,0,Regular
+01/04/2025,2.0,3,"Almoço, Jantar e Happy Hour",60,R$ 3230.51 (ERRO),Nenhum,2.0,24.4,8.89,Falta de insumo básico,3,180,0,Não informado
+02/04/2025,4.0,7,Almoço,57,3393.53,Impressora da cozinha falhou,4.0,25.2,3.79,Normal,7,171,0,Bom
+03/04/2025,4.0,6,Jantar,53,3139.17,Nenhum,4.0,49.7,6.9,Falta de insumo básico,6,159,0,Não informado
+04/04/2025,3.0,6,Apenas Jantar,22,1200,Nenhum,3.0,26.0,5.18,Cozinha sobrecarregada,6,66,0,Ruim
+05/04/2025,2.0,6,Jantar,138,6155.12,Nenhum,2.0,32.1,9.25,Previsão errada do chefe,6,276,0,Ruim
+06/04/2025,5.0,6,Apenas Jantar,83,5238.87,Sistema instável,5.0,16.2,3.52,Estoque desorganizado,6,166,0,Bom
+07/04/2025,3.0,4,Apenas Jantar,40,2472.61,Nenhum,3.0,30.8,7.18,Normal,4,80,0,Regular
+08/04/2025,4.0,5,Apenas Almoço,31,1786.48,Sistema instável,4.0,19.1,9.65,Normal,5,93,2,Bom
+09/04/2025,5.0,5,Apenas Jantar,35,1752.05,Nenhum,5.0,39.6,6.0,Falta de insumo básico,5,105,0,nan
+10/04/2025,4.0,5,"Almoço, Jantar e Happy Hour",51,3272.81,Nenhum,4.0,47.5,10.1,Normal,5,153,0,Regular
+11/04/2025,4.0,6,Almoço e Jantar,41,1829.09,Impressora da cozinha falhou,4.0,46.7 minutos (atrasado),8.25,Normal,6,123,0,Bom
+12/04/2025,3.0,3,Apenas Jantar,99,6013.9,Queda de rede,3.0,53.8,11.31,Cozinha sobrecarregada,3,198,0,nan
+13/04/2025,4.0,8,Jantar,99,5346.76,Nenhum,4.0,28.8,3.62,Falta de insumo básico,8,297,1,Excelente
+14/04/2025,3.0,6,Apenas Almoço,79,3782.69,Nenhum,3.0,46.5,9.85,Equipamento com defeito,6,158,0,Regular
+15/04/2025,8.0,5,Apenas Almoço,47,2259.39,Nenhum,8.0,27.2,7.15,Previsão errada do chefe,5,94,1,Regular
+16/04/2025,3.0,,"Almoço, Jantar e Happy Hour",65,3119.29,Erro de lançamento,3.0,21.2,3.48,Previsão errada do chefe,,195,0,Excelente
+17/04/2025,3.0,5,Jantar,29,1692.58,Queda de rede,3.0,28.2,5.18,Falta de insumo básico,5,87,1,Regular
+18/04/2025,3.0,4,Apenas Almoço,57,3693.82,Nenhum,3.0,22.8,10.52,Cozinha sobrecarregada,4,114,1,Regular
+19/04/2025,6.0,,"Almoço, Jantar e Happy Hour",95,5430.93,Sistema instável,6.0,45.0,3.4,Estoque desorganizado,,190,1,Não informado
+20/04/2025,3.0,5,"Almoço, Jantar e Happy Hour",140,6407.43,Nenhum,3.0,29.2,7.09,Estoque desorganizado,5,420,0,Regular
+21/04/2025,5.0,6,Jantar,33,1563.71,Erro de lançamento,5.0,26.8,4.29,Normal,6,66,5,Bom
+22/04/2025,6.0,3,Almoço e Jantar,44,2658.65,Nenhum,6.0,30.8,7.08,Normal,3,132,0,Bom
+23/04/2025,5.0,6,"Almoço, Jantar e Happy Hour",49,2933.61,Sistema instável,5.0,29.0,9.74,Normal,6,98,0,Bom
+24/04/2025,3.0,4,"Almoço, Jantar e Happy Hour",59,2630.95,Sistema instável,3.0,17.9,3.98,Cozinha sobrecarregada,4,177,,Regular
+25/04/2025,6.0,5,Apenas Jantar,54,3205.0,Comanda perdida,6.0,19.6,6.37,Falta de insumo básico,5,162,0,Regular
+26/04/2025,5.0,5,Apenas Almoço,113,5639.29,Erro de lançamento,5.0,17.0,4.12,Normal,5,226,1,Regular
+27/04/2025,3.0,4,Jantar,83,5091.75,Nenhum,3.0,41.0,9.19,Equipamento com defeito,4,249,0,Regular
+28/04/2025,5.0,5,Jantar,29,1900.85,Comanda perdida,5.0,46.8,6.95,Normal,5,87,2,Bom
+29/04/2025,5.0,8,"Almoço, Jantar e Happy Hour",31,1555.01,Sistema instável,5.0,24.0,11.76,Normal,8,93,0,Bom
+30/04/2025,3.0,6,"Almoço, Jantar e Happy Hour",56,3227.05,Nenhum,3.0,16.9,7.3,Normal,6,168,0,Excelente
+01/05/2025,3.0,8,Almoço,Indefinido,,Queda de rede,3.0,95.0,10810g,Normal,8,120,3,Bom
+02/05/2025,5.0,4,Apenas Jantar,48,2354.02,Sistema instável,5.0,47.5,5.18,Estoque desorganizado,4,96,0,Regular
+03/05/2025,5.0,5,Apenas Jantar,85,5308.27,Nenhum,5.0,28.7,10.99,Cozinha sobrecarregada,5,170,1,Bom
+04/05/2025,3.0,5,Jantar,78,4616.72,Nenhum,3.0,55.4,3.15,Previsão errada do chefe,5,156,N/A,Regular
+05/05/2025,4.0,4,Almoço e Jantar,51,2741.91,Nenhum,4.0,24.2,8.67,Normal,4,102,0,Bom
+06/05/2025,3.0,7,Jantar,63,2829.77,Nenhum,3.0,41.9,8.4,Cozinha sobrecarregada,7,189,1,Ruim
+07/05/2025,3.0,3,"Almoço, Jantar e Happy Hour",55,2610.69,Nenhum,3.0,36.6,5.15,Falta de insumo básico,3,165,0,Bom
+08/05/2025,4.0,4,Jantar,53,2210.96,Erro de lançamento,4.0,31.0,3.14,Normal,4,106,2,Ruim
+09/05/2025,3.0,5,Almoço e Jantar,52,2886.34,Nenhum,3.0,28.4,8.28,Previsão errada do chefe,5,156,0,Ruim
+10/05/2025,4.0,10,Almoço e Jantar,97,6134.71,Nenhum,4.0,24.5,7.93,Cozinha sobrecarregada,10,194,2,Ruim
+11/05/2025,3.0,3,"Almoço, Jantar e Happy Hour",92,5378.99,Erro de lançamento,3.0,18.6,5.42,Normal,3,184,0,Bom
+12/05/2025,3.0,6,Apenas Almoço,30,1781.84,Nenhum,3.0,19.2,10.45,Estoque desorganizado,6,90,0,Excelente
+13/05/2025,3.0,5,Almoço e Jantar,50,2158.56,Nenhum,3.0,38.5,9.69,Normal,5,100,0,Bom
+14/05/2025,,6,"Almoço, Jantar e Happy Hour",41,2590.4,Impressora da cozinha falhou,,69.2,3.34,Normal,6,123,0,Não informado
+15/05/2025,2.0,4,Apenas Almoço,40,2327.82,Nenhum,2.0,27.2,6.31,Cozinha sobrecarregada,4,120,1,Ruim
+16/05/2025,4.0,6,"Almoço, Jantar e Happy Hour",62,R$ 3574.38 (ERRO),Nenhum,4.0,21.3,3.6,Cozinha sobrecarregada,6,186,0,Regular
+17/05/2025,4.0,5,Apenas Jantar,91,5255.46,Nenhum,4.0,52.0,5.4,Normal,5,182,0,Excelente
+18/05/2025,2.0,6,Apenas Jantar,121,5783.0,Falta de energia parcial,2.0,40.1,10.01,Normal,6,242,5,Excelente
+19/05/2025,6.0,7,"Almoço, Jantar e Happy Hour",73,3476.38,Nenhum,6.0,21.1,6.95,Normal,7,146,2,Regular
+20/05/2025,3.0,10,"Almoço, Jantar e Happy Hour",49,2635.88,Nenhum,3.0,22.6,8.57,Normal,10,98,2,Bom
+21/05/2025,4.0,6,Apenas Almoço,73,3921.08,Nenhum,4.0,27.4,7.02,Previsão errada do chefe,6,219,0,Bom
+22/05/2025,3.0,4,Almoço e Jantar,73,3200.79,Nenhum,3.0,50.7,5.58,Cozinha sobrecarregada,4,219,0,Bom
+23/05/2025,5.0,5,Apenas Jantar,55,2439.03,Queda de rede,5.0,23.9,10.77,Estoque desorganizado,5,110,0,Bom
+24/05/2025,6.0,5,Apenas Jantar,134,5993.0,Sistema instável,6.0,32.2,3.45,Normal,5,402,0,Ruim
+25/05/2025,4.0,6,Almoço,150,6022.92,Nenhum,4.0,35.4,9.25,Estoque desorganizado,6,300,0,Regular
+26/05/2025,3.0,7,Apenas Jantar,53,3018.49,Nenhum,3.0,21.0,6.86,Estoque desorganizado,7,106,0,Bom
+27/05/2025,6.0,6,Almoço,75,3130.02,Impressora da cozinha falhou,6.0,32.7,6.62,Falta de insumo básico,6,225,0,Ruim
+28/05/2025,4.0,5,Apenas Jantar,95,4221.51,Nenhum,4.0,29.9,6.88,Cozinha sobrecarregada,5,190,0,Regular
+29/05/2025,3.0,4,Jantar,63,2573.85,Nenhum,3.0,35.4,4.13,Normal,4,189,0,Regular
+30/05/2025,6.0,5,Almoço,38,2474.81,Nenhum,6.0,41.4,5.94,Estoque desorganizado,5,76,0,Excelente
+31/05/2025,3.0,5,Apenas Almoço,79,,Comanda perdida,3.0,25.2 minutos (atrasado),11.64,Normal,5,158,2,Regular
+01/06/2025,5.0,6,Apenas Almoço,88,5071.55,Nenhum,5.0,32.7,11.29,Equipamento com defeito,6,176,0,Regular
+02/06/2025,2.0,3,Jantar,60,2917.8,Cliente desistiu na fila,2.0,23.6,10.9,Cozinha sobrecarregada,3,180,1,Bom
+03/06/2025,6.0,6,"Almoço, Jantar e Happy Hour",58,3108.82,Falta de energia parcial,6.0,33.4,3.42,Estoque desorganizado,6,116,3,Excelente
+04/06/2025,3.0,5,Apenas Jantar,98,4677.96,Queda de rede,3.0,32.4,5.51,Normal,5,196,0,nan
+05/06/2025,4.0,6,Almoço e Jantar,95,4205.63,Nenhum,4.0,41.7,9.81,Normal,6,285,1,Bom
+06/06/2025,6.0,6,"Almoço, Jantar e Happy Hour",56,2682.54,Nenhum,6.0,23.0,5.05,Normal,6,168,1,Ruim
+07/06/2025,,5,Jantar,77,4959.07,Queda de rede,,26.5,9.5,Normal,5,231,0,Ruim
+08/06/2025,2.0,6,Apenas Jantar,92,5939.95,Nenhum,2.0,28.6,10.59,Equipamento com defeito,6,276,0,Bom
+09/06/2025,6.0,6,Almoço,54,3048.72,Falta de energia parcial,6.0,23.4,8.43,Falta de insumo básico,6,162,1,Ruim
+10/06/2025,4.0,7,"Almoço, Jantar e Happy Hour",51,2512.72,Nenhum,4.0,24.7,10150g,Cozinha sobrecarregada,7,102,0,Regular
+11/06/2025,6.0,5,Almoço e Jantar,38,2472.99,Erro de lançamento,6.0,24.7,8.79,Normal,5,76,2,Regular
+12/06/2025,4.0,5,Almoço e Jantar,42,2007.24,Nenhum,4.0,22.4,3.59,Normal,5,126,0,Regular
+13/06/2025,3.0,5,"Almoço, Jantar e Happy Hour",59,2932.82,Cliente desistiu na fila,3.0,23.1,4.98,Cozinha sobrecarregada,5,177,0,Bom
+14/06/2025,4.0,5,Apenas Jantar,89,4833.09,Nenhum,4.0,29.4,3.78,Previsão errada do chefe,5,267,0,Bom
+15/06/2025,4.0,8,Apenas Jantar,86,5482.67,Nenhum,4.0,25.7,4.66,Estoque desorganizado,8,172,0,Regular
+16/06/2025,4.0,4,Almoço e Jantar,62,3116.26,Queda de rede,4.0,28.6,6.5,Normal,4,186,1,Bom
+17/06/2025,4.0,,Apenas Jantar,53,2651.07,Nenhum,4.0,54.7,8.1,Cozinha sobrecarregada,,159,1,Ruim
+18/06/2025,3.0,4,"Almoço, Jantar e Happy Hour",75,3598.12,Nenhum,3.0,48.4,10.63,Normal,4,225,0,Bom
+19/06/2025,5.0,5,Apenas Jantar,34,1514.76,Nenhum,5.0,29.4,6.84,Normal,5,68,N/A,Regular
+20/06/2025,5.0,6,Almoço e Jantar,101,4299.31,Erro de lançamento,5.0,38.0,8.95,Cozinha sobrecarregada,6,202,0,Regular
+21/06/2025,6.0,4,Jantar,118,5042.5,Sistema instável,6.0,34.5,3.19,Normal,4,354,0,Excelente
+22/06/2025,3.0,4,"Almoço, Jantar e Happy Hour",96,5724.68,Erro de lançamento,3.0,24.0,9.22,Normal,4,288,0,Bom
+23/06/2025,4.0,6,Almoço,85,3537.71,Nenhum,4.0,13.6,4.14,Normal,6,170,5,Bom
+24/06/2025,2.0,6,"Almoço, Jantar e Happy Hour",65,4131.34,Nenhum,2.0,31.0,9.96,Normal,6,195,1,Bom
+25/06/2025,3.0,5,Apenas Almoço,69,2787.52,Nenhum,3.0,32.9,8.63,Normal,5,138,N/A,Regular
+26/06/2025,5.0,3,Apenas Jantar,98,4603.73,Falta de energia parcial,5.0,30.8,9.26,Estoque desorganizado,3,294,0,Bom
+27/06/2025,6.0,4,Almoço,66,3769.33,Sistema instável,6.0,16.4,11.84,Estoque desorganizado,4,132,0,Excelente
+28/06/2025,6.0,5,Almoço,96,4479.54,Cliente desistiu na fila,6.0,44.8,11.01,Estoque desorganizado,5,192,3,Regular
+29/06/2025,4.0,5,Almoço,134,5795.54,Comanda perdida,4.0,14.4,8.36,Previsão errada do chefe,5,402,0,Bom
+30/06/2025,6.0,4,Apenas Almoço,Indefinido,R$ 3189.83 (ERRO),Nenhum,6.0,58.6,9.68,Previsão errada do chefe,4,120,N/A,Regular
+01/07/2025,4.0,7,Apenas Almoço,45,1905.19,Nenhum,4.0,38.9,3.95,Cozinha sobrecarregada,7,135,0,Regular
+02/07/2025,3.0,3,Apenas Jantar,73,4131.69,Impressora da cozinha falhou,3.0,41.2,7.25,Normal,3,219,,Regular
+03/07/2025,3.0,6,"Almoço, Jantar e Happy Hour",71,3777.85,Comanda perdida,3.0,45.3,6.96,Normal,6,213,0,Regular
+04/07/2025,3.0,6,Almoço,68,3046.21,Nenhum,3.0,64.5,8.03,Cozinha sobrecarregada,6,204,0,Regular
+05/07/2025,2.0,4,"Almoço, Jantar e Happy Hour",80,5178.59,Nenhum,2.0,40.4,4.22,Normal,4,240,0,Excelente
+06/07/2025,3.0,4,Apenas Jantar,99,5593.95,Nenhum,3.0,26.8,6.96,Cozinha sobrecarregada,4,297,0,Ruim
+07/07/2025,6.0,5,Jantar,69,2912.95,Queda de rede,6.0,27.7,11.84,Normal,5,207,1,Bom
+08/07/2025,5.0,4,Almoço e Jantar,72,3391.34,Erro de lançamento,5.0,34.3,8.43,Cozinha sobrecarregada,4,144,0,Excelente
+09/07/2025,6.0,3,Jantar,66,2776.32,Nenhum,6.0,37.0,5.11,Estoque desorganizado,3,198,,Regular
+10/07/2025,4.0,10,Apenas Almoço,48,2369.66,Nenhum,4.0,30.0,9.28,Normal,10,144,0,Excelente
+11/07/2025,4.0,3,"Almoço, Jantar e Happy Hour",64,3062.2,Nenhum,4.0,32.9,5.79,Cozinha sobrecarregada,3,128,0,Regular
+12/07/2025,3.0,3,Apenas Jantar,75,4377.8,Nenhum,3.0,13.6,8.03,Equipamento com defeito,3,225,0,Bom
+13/07/2025,3.0,4,Apenas Almoço,100,5019.44,Comanda perdida,3.0,61.4,3.68,Normal,4,200,,Bom
+14/07/2025,4.0,6,Apenas Jantar,75,3550.44,Nenhum,4.0,57.7,3.86,Estoque desorganizado,6,225,0,Bom
+15/07/2025,5.0,7,Almoço,43,1945.43,Nenhum,5.0,25.3,3.49,Falta de insumo básico,7,86,N/A,Regular
+16/07/2025,3.0,7,Almoço,29,1661.67,Queda de rede,3.0,23.4,7.74,Estoque desorganizado,7,87,,Excelente
+17/07/2025,5.0,4,Almoço,38,2430.5,Nenhum,5.0,25.4,10.33,Estoque desorganizado,4,76,1,Bom
+18/07/2025,2.0,6,Jantar,48,2419.48,Nenhum,2.0,25.8,11.35,Equipamento com defeito,6,144,N/A,Bom
+19/07/2025,4.0,6,"Almoço, Jantar e Happy Hour",135,7113.38,Nenhum,4.0,51.7,9.98,Normal,6,270,0,Regular
+20/07/2025,4.0,7,Almoço,100,5041.71,Nenhum,4.0,28.8 minutos (atrasado),4100g,Normal,7,200,0,Excelente
+21/07/2025,3.0,6,Apenas Jantar,43,2829.34,Impressora da cozinha falhou,3.0,36.6,9.19,Cozinha sobrecarregada,6,129,0,Não informado
+22/07/2025,4.0,5,Almoço e Jantar,31,1761.47,Nenhum,4.0,31.5,10.01,Cozinha sobrecarregada,5,62,2,nan
+23/07/2025,2.0,5,Almoço e Jantar,46,3005.96,Falta de energia parcial,2.0,40.2,11.56,Normal,5,138,0,Bom
+24/07/2025,5.0,5,"Almoço, Jantar e Happy Hour",72,3325.76,Sistema instável,5.0,26.5,6.2,Normal,5,144,0,Não informado
+25/07/2025,4.0,6,Jantar,44,2559.83,Nenhum,4.0,56.2,3.44,Estoque desorganizado,6,132,0,Bom
+26/07/2025,3.0,6,Apenas Jantar,102,5289.43,Sistema instável,3.0,36.4,4.7,Normal,6,306,,Bom
+27/07/2025,4.0,5,Apenas Jantar,121,6073.06,Nenhum,4.0,40.1,7.32,Estoque desorganizado,5,242,0,Ruim
+28/07/2025,3.0,8,Almoço e Jantar,81,4019.9,Sistema instável,3.0,26.1,10.13,Equipamento com defeito,8,162,2,Bom
+29/07/2025,4.0,6,Jantar,42,1888.44,Nenhum,4.0,26.0,8.83,Normal,6,126,3,Ruim
+30/07/2025,,6,Almoço e Jantar,89,,Nenhum,,52.8,4.97,Equipamento com defeito,6,178,0,Regular
+31/07/2025,5.0,5,Almoço,71,2930.1,Nenhum,5.0,36.6,3.73,Normal,5,142,0,Ruim
+01/08/2025,4.0,6,"Almoço, Jantar e Happy Hour",58,2883.89,Nenhum,4.0,19.1,4.81,Equipamento com defeito,6,174,0,Bom
+02/08/2025,4.0,5,Jantar,94,4885.73,Nenhum,4.0,29.0,8.6,Previsão errada do chefe,5,188,,Regular
+03/08/2025,2.0,,Apenas Jantar,91,5834.49,Nenhum,2.0,28.2,4.02,Normal,,182,0,Regular
+04/08/2025,4.0,5,Almoço e Jantar,27,1691.68,Nenhum,4.0,30.4,7.21,Normal,5,54,0,Excelente
+05/08/2025,5.0,6,"Almoço, Jantar e Happy Hour",28,1428.88,Nenhum,5.0,19.8,7.81,Normal,6,56,0,nan
+06/08/2025,4.0,3,Apenas Almoço,56,2883.74,Falta de energia parcial,4.0,32.1,11.96,Normal,3,168,0,Bom
+07/08/2025,4.0,4,Jantar,39,2225.43,Nenhum,4.0,43.1,10.94,Cozinha sobrecarregada,4,78,1,Bom
+08/08/2025,5.0,3,Jantar,42,2340.6,Nenhum,5.0,29.9,7.96,Cozinha sobrecarregada,3,84,N/A,Bom
+09/08/2025,3.0,5,Almoço e Jantar,70,4139.03,Nenhum,3.0,26.0,11.26,Normal,5,210,1,Regular
+10/08/2025,4.0,5,Almoço e Jantar,97,4755.75,Nenhum,4.0,35.7,8.47,Normal,5,194,0,Bom
+11/08/2025,6.0,4,Jantar,34,2221.78,Queda de rede,6.0,23.5,11.11,Falta de insumo básico,4,102,0,Não informado
+12/08/2025,2.0,5,Apenas Jantar,58,3686.42,Nenhum,2.0,49.1,3.66,Estoque desorganizado,5,116,0,Não informado
+13/08/2025,5.0,4,Apenas Jantar,52,2631.62,Nenhum,5.0,37.4,11.65,Estoque desorganizado,4,104,1,Ruim
+14/08/2025,8.0,7,Almoço,28,R$ 1709.10 (ERRO),Nenhum,8.0,22.2,7.48,Normal,7,56,1,Bom
+15/08/2025,3.0,7,"Almoço, Jantar e Happy Hour",90,4477.67,Sistema instável,3.0,41.1,4.92,Cozinha sobrecarregada,7,270,0,nan
+16/08/2025,4.0,7,"Almoço, Jantar e Happy Hour",106,4429.89,Cliente desistiu na fila,4.0,33.1,5.75,Normal,7,212,0,Regular
+17/08/2025,4.0,5,Almoço e Jantar,103,5202.94,Falta de energia parcial,4.0,31.8,7.47,Falta de insumo básico,5,206,0,Não informado
+18/08/2025,4.0,8,"Almoço, Jantar e Happy Hour",77,3268.07,Nenhum,4.0,33.5,10.54,Estoque desorganizado,8,231,0,Bom
+19/08/2025,3.0,4,Apenas Almoço,93,4231.85,Sistema instável,3.0,65.0,9.33,Estoque desorganizado,4,279,0,nan
+20/08/2025,3.0,5,"Almoço, Jantar e Happy Hour",39,2042.31,Nenhum,3.0,27.1,7.92,Cozinha sobrecarregada,5,78,2,Ruim
+21/08/2025,3.0,5,"Almoço, Jantar e Happy Hour",66,3704.3,Nenhum,3.0,28.7,10.07,Normal,5,198,3,Bom
+22/08/2025,4.0,7,Apenas Jantar,48,2491.38,Nenhum,4.0,25.8,7.62,Estoque desorganizado,7,144,0,Bom
+23/08/2025,3.0,5,Jantar,111,4534.66,Nenhum,3.0,57.0,9.09,Equipamento com defeito,5,222,0,Excelente
+24/08/2025,8.0,5,Almoço e Jantar,84,5244.43,Nenhum,8.0,20.9,11.52,Normal,5,168,5,Regular
+25/08/2025,6.0,6,Almoço e Jantar,53,2760.16,Comanda perdida,6.0,58.4,8.41,Estoque desorganizado,6,159,0,Regular
+26/08/2025,3.0,5,Apenas Jantar,64,4148.53,Nenhum,3.0,35.7,5.34,Cozinha sobrecarregada,5,192,1,nan
+27/08/2025,4.0,6,"Almoço, Jantar e Happy Hour",43,2771.3,Erro de lançamento,4.0,24.5,4.99,Normal,6,86,1,Regular
+28/08/2025,6.0,5,Almoço,96,3991.84,Nenhum,6.0,14.7,11.06,Estoque desorganizado,5,192,0,Bom
+29/08/2025,4.0,6,Apenas Jantar,Indefinido,,Nenhum,4.0,36.5,4690g,Previsão errada do chefe,6,120,0,Bom
+30/08/2025,4.0,6,Almoço e Jantar,128,5727.14,Impressora da cozinha falhou,4.0,44.2,8.98,Falta de insumo básico,6,256,2,Regular
+31/08/2025,5.0,8,Apenas Jantar,97,5243.64,Nenhum,5.0,38.5,10.09,Estoque desorganizado,8,291,0,Bom
+01/09/2025,3.0,5,Apenas Jantar,82,3694.03,Falta de energia parcial,3.0,30.9,7.13,Normal,5,164,0,Bom
+02/09/2025,3.0,4,Apenas Almoço,86,3779.19,Erro de lançamento,3.0,33.4,8.93,Cozinha sobrecarregada,4,258,0,Ruim
+03/09/2025,3.0,,Almoço e Jantar,55,2855.61,Nenhum,3.0,41.8,9.53,Normal,,165,1,Não informado
+04/09/2025,3.0,5,Almoço e Jantar,58,2991.75,Nenhum,3.0,20.3,9.05,Equipamento com defeito,5,174,0,Ruim
+05/09/2025,5.0,,Almoço,40,2162.42,Impressora da cozinha falhou,5.0,21.4,5.97,Previsão errada do chefe,,80,5,Excelente
+06/09/2025,6.0,8,Jantar,116,5710.33,Sistema instável,6.0,16.5,7.32,Normal,8,348,N/A,Regular
+07/09/2025,4.0,5,Apenas Jantar,76,4758.35,Nenhum,4.0,37.8,8.92,Normal,5,152,3,Bom
+08/09/2025,2.0,5,Almoço e Jantar,43,2067.0,Nenhum,2.0,27.7 minutos (atrasado),11.95,Normal,5,86,1,Bom
+09/09/2025,4.0,5,Apenas Almoço,76,3283.37,Nenhum,4.0,31.8,5.6,Cozinha sobrecarregada,5,228,1,Ruim
+10/09/2025,3.0,5,Apenas Almoço,50,3181.36,Erro de lançamento,3.0,14.1,9.77,Cozinha sobrecarregada,5,150,0,nan
+11/09/2025,4.0,6,Almoço,48,2256.94,Nenhum,4.0,64.8,8.27,Normal,6,96,1,Ruim
+12/09/2025,2.0,5,Apenas Almoço,50,3013.6,Impressora da cozinha falhou,2.0,42.0,6.99,Estoque desorganizado,5,100,2,Bom
+13/09/2025,3.0,,Almoço e Jantar,107,6662.46,Nenhum,3.0,30.1,11.77,Previsão errada do chefe,,214,0,Não informado
+14/09/2025,6.0,3,Almoço e Jantar,132,7941.96,Nenhum,6.0,29.2,4.92,Normal,3,396,0,nan
+15/09/2025,4.0,4,Apenas Jantar,65,2959.41,Nenhum,4.0,35.7,9.87,Previsão errada do chefe,4,130,N/A,Não informado
+16/09/2025,4.0,6,Apenas Jantar,54,2840.9,Comanda perdida,4.0,40.0,9.08,Normal,6,162,0,Não informado
+17/09/2025,4.0,7,Almoço e Jantar,81,3414.04,Nenhum,4.0,17.9,6.23,Previsão errada do chefe,7,243,0,Excelente
+18/09/2025,6.0,,Jantar,78,4231.36,Queda de rede,6.0,25.8,6.0,Cozinha sobrecarregada,,234,1,Regular
+19/09/2025,5.0,5,Apenas Jantar,57,3043.3,Nenhum,5.0,45.2,7.18,Normal,5,114,0,Bom
+20/09/2025,5.0,8,Almoço,87,5045.29,Comanda perdida,5.0,20.2,4.67,Previsão errada do chefe,8,174,0,Ruim
+21/09/2025,3.0,6,Apenas Almoço,129,5434.16,Sistema instável,3.0,43.0,5.16,Equipamento com defeito,6,387,0,Excelente
+22/09/2025,3.0,4,Almoço,100,4430.12,Nenhum,3.0,45.0,11.22,Normal,4,300,3,Bom
+23/09/2025,5.0,8,Almoço e Jantar,52,3039.2,Nenhum,5.0,21.8,11.94,Falta de insumo básico,8,156,0,Bom
+24/09/2025,4.0,4,"Almoço, Jantar e Happy Hour",53,2733.17,Erro de lançamento,4.0,22.2,11.18,Previsão errada do chefe,4,106,2,Excelente
+25/09/2025,3.0,5,Apenas Jantar,66,3358.94,Comanda perdida,3.0,36.1,9.75,Normal,5,132,0,Não informado
+26/09/2025,2.0,6,Almoço e Jantar,101,4376.28,Sistema instável,2.0,27.7,11.24,Estoque desorganizado,6,303,1,Regular
+27/09/2025,3.0,6,Apenas Almoço,103,6538.1,Nenhum,3.0,47.3,3.99,Previsão errada do chefe,6,206,1,Bom
+28/09/2025,3.0,7,Jantar,74,R$ 4834.95 (ERRO),Impressora da cozinha falhou,3.0,37.6,5.33,Estoque desorganizado,7,148,0,Regular
+29/09/2025,5.0,4,Apenas Jantar,62,2773.43,Nenhum,5.0,43.9,4.51,Normal,4,124,0,Regular
+30/09/2025,6.0,6,Apenas Jantar,36,2069.59,Comanda perdida,6.0,29.5,11.93,Normal,6,72,3,Bom
+01/10/2025,5.0,5,Almoço,76,3815.91,Queda de rede,5.0,42.0,9.08,Normal,5,152,1,Bom
+02/10/2025,4.0,5,Almoço e Jantar,62,2819.73,Nenhum,4.0,53.8,9.5,Previsão errada do chefe,5,186,2,Bom
+03/10/2025,5.0,5,Jantar,40,2009.7,Nenhum,5.0,19.6,8.75,Cozinha sobrecarregada,5,80,0,Bom
+04/10/2025,2.0,,Apenas Jantar,113,6274.34,Nenhum,2.0,27.4,10.64,Normal,,226,0,Regular
+05/10/2025,5.0,7,Jantar,132,6978.73,Nenhum,5.0,32.0,9.95,Normal,7,264,1,Ruim
+06/10/2025,2.0,5,Almoço,46,2393.5,Erro de lançamento,2.0,35.9,10.07,Previsão errada do chefe,5,138,0,Excelente
+07/10/2025,3.0,5,Apenas Almoço,77,3347.08,Nenhum,3.0,26.9,9.71,Previsão errada do chefe,5,231,0,Excelente
+08/10/2025,5.0,6,Almoço e Jantar,67,3333.01,Nenhum,5.0,62.1,6030g,Previsão errada do chefe,6,201,0,Bom
+09/10/2025,3.0,5,Jantar,65,3446.28,Nenhum,3.0,27.1,4.33,Equipamento com defeito,5,195,0,Regular
+10/10/2025,4.0,5,Almoço e Jantar,72,3348.03,Comanda perdida,4.0,40.8,10.83,Estoque desorganizado,5,216,2,Ruim
+11/10/2025,2.0,7,Almoço,106,5864.13,Nenhum,2.0,21.2,8.76,Cozinha sobrecarregada,7,212,1,nan
+12/10/2025,2.0,6,Jantar,146,5883.55,Comanda perdida,2.0,37.2,10.06,Falta de insumo básico,6,292,0,Bom
+13/10/2025,3.0,5,"Almoço, Jantar e Happy Hour",76,3316.06,Nenhum,3.0,76.8,3.88,Normal,5,152,3,Bom
+14/10/2025,3.0,5,Apenas Almoço,104,4700.19,Impressora da cozinha falhou,3.0,28.9,9.1,Previsão errada do chefe,5,312,1,Regular
+15/10/2025,4.0,5,Apenas Almoço,49,2697.88,Falta de energia parcial,4.0,33.5,4.68,Estoque desorganizado,5,147,,Bom
+16/10/2025,3.0,6,Jantar,76,3353.83,Comanda perdida,3.0,35.2,6.32,Normal,6,152,2,Bom
+17/10/2025,6.0,5,Almoço,59,2769.89,Comanda perdida,6.0,21.2,7.56,Previsão errada do chefe,5,118,3,Bom
+18/10/2025,3.0,,Almoço,93,5357.79,Nenhum,3.0,34.9,10.46,Normal,,279,0,Regular
+19/10/2025,4.0,7,Almoço e Jantar,108,5901.43,Nenhum,4.0,47.4,7.87,Normal,7,324,0,Regular
+20/10/2025,5.0,5,Jantar,30,1996.82,Nenhum,5.0,39.7,8.74,Previsão errada do chefe,5,60,2,Regular
+21/10/2025,,5,Almoço e Jantar,35,1781.89,Nenhum,,30.0,4.11,Normal,5,105,2,nan
+22/10/2025,5.0,6,Apenas Jantar,44,2287.11,Nenhum,5.0,35.4,7.72,Estoque desorganizado,6,132,0,Regular
+23/10/2025,3.0,5,"Almoço, Jantar e Happy Hour",76,3358.61,Nenhum,3.0,23.6,11.85,Previsão errada do chefe,5,228,0,Bom
+24/10/2025,3.0,5,Almoço e Jantar,56,3222.66,Nenhum,3.0,53.3,8.34,Normal,5,112,N/A,Excelente
+25/10/2025,5.0,6,Apenas Almoço,155,7907.67,Erro de lançamento,5.0,26.4,5.24,Normal,6,310,N/A,Regular
+26/10/2025,3.0,7,Apenas Almoço,61,3712.3,Nenhum,3.0,24.7,11.68,Falta de insumo básico,7,183,0,Bom
+27/10/2025,3.0,7,Apenas Almoço,55,3380.88,Nenhum,3.0,37.1,3.37,Normal,7,165,0,Regular
+28/10/2025,4.0,6,Apenas Jantar,Indefinido,,Nenhum,4.0,37.0 minutos (atrasado),4.96,Normal,6,120,2,Ruim
+29/10/2025,3.0,5,Almoço,40,2157.64,Nenhum,3.0,35.6,7.01,Normal,5,120,5,nan
+30/10/2025,3.0,7,Apenas Jantar,57,2551.04,Falta de energia parcial,3.0,23.9,11.92,Estoque desorganizado,7,114,1,Bom
+31/10/2025,4.0,5,"Almoço, Jantar e Happy Hour",55,3321.49,Falta de energia parcial,4.0,28.4,9.19,Estoque desorganizado,5,110,0,Bom
+01/11/2025,3.0,5,Apenas Almoço,78,4973.27,Comanda perdida,3.0,26.3,7.41,Estoque desorganizado,5,234,0,Bom
+02/11/2025,4.0,5,"Almoço, Jantar e Happy Hour",98,5387.56,Cliente desistiu na fila,4.0,76.1,8.14,Equipamento com defeito,5,196,0,Bom
+03/11/2025,6.0,6,"Almoço, Jantar e Happy Hour",57,2970.31,Comanda perdida,6.0,25.4,5.46,Normal,6,114,2,Bom
+04/11/2025,4.0,,"Almoço, Jantar e Happy Hour",94,4395.63,Sistema instável,4.0,43.4,4.33,Normal,,282,0,Bom
+05/11/2025,4.0,4,Almoço,39,1928.48,Falta de energia parcial,4.0,36.3,11.31,Normal,4,78,2,Bom
+06/11/2025,3.0,6,Jantar,40,2580.39,Cliente desistiu na fila,3.0,21.8,3.46,Normal,6,80,2,Bom
+07/11/2025,4.0,6,Jantar,33,1612.52,Nenhum,4.0,28.3,8.33,Normal,6,66,0,Bom
+08/11/2025,4.0,5,Almoço,106,5044.77,Nenhum,4.0,45.0,7.61,Estoque desorganizado,5,212,0,Regular
+09/11/2025,5.0,6,Jantar,108,6267.69,Nenhum,5.0,48.4,8.55,Falta de insumo básico,6,216,2,Não informado
+10/11/2025,3.0,5,Almoço e Jantar,77,3104.66,Erro de lançamento,3.0,30.7,9.28,Normal,5,231,0,Regular
+11/11/2025,3.0,5,Apenas Almoço,49,2587.92,Nenhum,3.0,23.0,10.12,Normal,5,147,0,Regular
+12/11/2025,3.0,3,Apenas Jantar,40,R$ 2550.82 (ERRO),Nenhum,3.0,25.3,5.0,Previsão errada do chefe,3,120,0,Bom
+13/11/2025,4.0,6,Apenas Jantar,56,2919.49,Nenhum,4.0,31.8,4.15,Equipamento com defeito,6,168,1,Regular
+14/11/2025,4.0,5,"Almoço, Jantar e Happy Hour",28,1855.39,Nenhum,4.0,61.4,11.05,Previsão errada do chefe,5,84,,Bom
+15/11/2025,6.0,6,Almoço,128,5165.76,Comanda perdida,6.0,44.6,11.25,Normal,6,384,N/A,Não informado
+16/11/2025,,5,Almoço e Jantar,88,5582.78,Comanda perdida,,32.9,3.42,Falta de insumo básico,5,264,N/A,Não informado
+17/11/2025,3.0,4,Apenas Almoço,54,2420.9,Falta de energia parcial,3.0,34.6,3980g,Normal,4,162,1,Bom
+18/11/2025,3.0,5,Apenas Jantar,59,3818.69,Nenhum,3.0,25.6,3.39,Previsão errada do chefe,5,177,0,Regular
+19/11/2025,5.0,7,"Almoço, Jantar e Happy Hour",60,3826.78,Nenhum,5.0,44.3,11.12,Normal,7,180,0,Excelente
+20/11/2025,4.0,5,Apenas Almoço,39,2406.24,Nenhum,4.0,18.2,9.55,Falta de insumo básico,5,117,0,Regular
+21/11/2025,5.0,6,Jantar,61,3134.65,Nenhum,5.0,32.4,10.43,Normal,6,183,N/A,Regular
+22/11/2025,4.0,5,"Almoço, Jantar e Happy Hour",93,5509.23,Nenhum,4.0,31.9,10.11,Normal,5,279,1,Regular
+23/11/2025,4.0,5,Jantar,77,4822.14,Nenhum,4.0,20.4,4.52,Estoque desorganizado,5,154,0,Regular
+24/11/2025,6.0,6,Apenas Almoço,71,3659.82,Nenhum,6.0,34.7,6.09,Estoque desorganizado,6,213,1,Não informado
+25/11/2025,4.0,6,"Almoço, Jantar e Happy Hour",52,2241.69,Impressora da cozinha falhou,4.0,62.2,10.06,Falta de insumo básico,6,104,1,Bom
+26/11/2025,3.0,4,Jantar,101,4192.87,Falta de energia parcial,3.0,29.7,8.48,Estoque desorganizado,4,202,0,Bom
+27/11/2025,3.0,4,"Almoço, Jantar e Happy Hour",64,,Impressora da cozinha falhou,3.0,18.1,7.31,Equipamento com defeito,4,128,,Excelente
+28/11/2025,,4,Apenas Almoço,56,3023.27,Falta de energia parcial,,20.8,10.97,Estoque desorganizado,4,168,0,Regular
+29/11/2025,3.0,5,Almoço,103,6602.74,Nenhum,3.0,56.6,6.36,Estoque desorganizado,5,309,0,Bom
+30/11/2025,3.0,6,Apenas Almoço,83,5282.95,Nenhum,3.0,23.6,10.34,Normal,6,166,,Bom
+01/12/2025,4.0,5,Jantar,57,2926.54,Nenhum,4.0,31.8,4.19,Normal,5,114,0,Bom
+02/12/2025,4.0,6,Apenas Jantar,77,3941.69,Comanda perdida,4.0,36.4,6.87,Equipamento com defeito,6,231,0,Bom
+03/12/2025,5.0,6,Jantar,31,1577.02,Impressora da cozinha falhou,5.0,30.2,8.79,Normal,6,62,2,Regular
+04/12/2025,5.0,7,"Almoço, Jantar e Happy Hour",27,1781.02,Nenhum,5.0,25.9,9.07,Normal,7,81,0,Não informado
+05/12/2025,4.0,5,Apenas Almoço,60,2673.76,Falta de energia parcial,4.0,17.7,7.11,Normal,5,120,0,Bom
+06/12/2025,3.0,4,Apenas Almoço,67,4316.11,Nenhum,3.0,19.3,4.6,Normal,4,201,0,Bom
+07/12/2025,6.0,5,Apenas Almoço,91,5527.89,Nenhum,6.0,23.5,6.99,Estoque desorganizado,5,273,1,Bom
+08/12/2025,3.0,6,"Almoço, Jantar e Happy Hour",60,3373.5,Nenhum,3.0,19.9,11.83,Cozinha sobrecarregada,6,180,0,Bom
+09/12/2025,4.0,4,"Almoço, Jantar e Happy Hour",63,2716.14,Nenhum,4.0,35.8,7.85,Previsão errada do chefe,4,126,0,Bom
+10/12/2025,6.0,6,Jantar,35,1567.6,Impressora da cozinha falhou,6.0,37.0,5.14,Cozinha sobrecarregada,6,70,0,Regular
+11/12/2025,6.0,4,"Almoço, Jantar e Happy Hour",46,1976.41,Nenhum,6.0,38.1,9.84,Normal,4,138,N/A,Ruim
+12/12/2025,4.0,5,Apenas Almoço,48,3153.28,Nenhum,4.0,29.9,5.97,Equipamento com defeito,5,144,0,Bom
+13/12/2025,6.0,4,Apenas Jantar,86,5063.86,Sistema instável,6.0,41.8,5.05,Normal,4,172,0,Regular
+14/12/2025,4.0,5,Apenas Almoço,95,5226.23,Nenhum,4.0,28.2,6.61,Normal,5,285,2,Regular
+15/12/2025,4.0,4,Almoço,52,2447.52,Nenhum,4.0,22.4,9.2,Cozinha sobrecarregada,4,104,0,Excelente
+16/12/2025,4.0,4,Almoço,72,3973.4,Comanda perdida,4.0,15.8,4.75,Cozinha sobrecarregada,4,144,5,Não informado
+17/12/2025,3.0,6,Almoço,38,2450.87,Nenhum,3.0,32.0 minutos (atrasado),10.62,Previsão errada do chefe,6,114,0,Excelente
+18/12/2025,4.0,5,Apenas Almoço,57,3297.49,Falta de energia parcial,4.0,36.8,11.38,Normal,5,114,N/A,Regular
+19/12/2025,4.0,5,Apenas Almoço,45,2712.6,Sistema instável,4.0,31.0,4.83,Normal,5,135,0,Regular
+20/12/2025,4.0,4,Apenas Jantar,118,7085.92,Nenhum,4.0,46.4,7.21,Estoque desorganizado,4,236,2,Regular
+21/12/2025,3.0,5,Almoço,125,5455.17,Nenhum,3.0,39.5,11.15,Cozinha sobrecarregada,5,250,2,Excelente
+22/12/2025,6.0,10,Almoço,48,2751.16,Nenhum,6.0,45.6,3.77,Normal,10,144,1,Bom
+23/12/2025,2.0,6,Jantar,50,2294.38,Falta de energia parcial,2.0,30.2,3.48,Normal,6,150,1,Regular
+24/12/2025,2.0,5,Jantar,41,2634.19,Comanda perdida,2.0,20.3,6.39,Normal,5,123,0,Bom
+25/12/2025,4.0,6,Apenas Almoço,18,1200,Nenhum,4.0,15.3,3.99,Cozinha sobrecarregada,6,36,0,Excelente
+26/12/2025,4.0,5,Almoço e Jantar,66,2915.14,Nenhum,4.0,47.7,5.03,Normal,5,198,1,Bom
+27/12/2025,5.0,6,Almoço,Indefinido,R$ 6526.90 (ERRO),Nenhum,5.0,26.1,11020g,Normal,6,120,1,Bom
+28/12/2025,3.0,6,"Almoço, Jantar e Happy Hour",86,5498.36,Impressora da cozinha falhou,3.0,26.2,10.36,Estoque desorganizado,6,172,0,Regular
+29/12/2025,6.0,4,"Almoço, Jantar e Happy Hour",62,3437.3,Nenhum,6.0,28.4,11.3,Equipamento com defeito,4,124,0,Bom
+30/12/2025,2.0,6,"Almoço, Jantar e Happy Hour",65,3875.88,Nenhum,2.0,25.9,11.79,Estoque desorganizado,6,195,3,Bom
+31/12/2025,,6,Almoço,44,1793.5,Nenhum,,33.0,5.14,Cozinha sobrecarregada,6,132,0,Bom

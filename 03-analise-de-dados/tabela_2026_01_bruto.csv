@@ -1,0 +1,182 @@
+﻿data_registro,qtd_entregadores_escala,tempo_medio_entrega_bruto,pedidos_com_atraso_bruto,precisao_status_ciclo_bruto,adocao_modulo_motoboy_bruto,qtd_cozinheiros,turno_operacao,pedidos_recebidos_bruto,pedidos_cancelados_bruto,ticket_medio_bruto,reembolsos_perdas_bruto,problema_relatado,tempo_medio_preparo_bruto,alimentos_descartados_bruto,uso_previsao_demanda_bruto,observacao_cozinha
+01/01/2026,3,38.4 minutos (muito alto),11 reclamações,45.2% (inconsistente),Manual (26.8%),4.0,Almoço e Delivery,25 pedidos (falha sync),4 cancelados,R$ 54.05,Estorno: 163.29,Erro na API do delivery,44.7 min (cozinha travada),16820 gramas,Não utilizado,Normal crítico
+02/01/2026,2,48.3,14,52.7,19.7,4.0,Turno Integral Delivery,26,7,50.08,325.9,Sistema instável,31.8,17.98,0%,Estoque furado
+03/01/2026,4,69.6,17,52.6,21.2,,Almoço e Delivery,51,13,64.13,733.59,Comanda digital travada,50.8,13.02,0%,Desperdício alto
+04/01/2026,,52.2,38,60.7,27.1,3.0,Jantar e Delivery,71,20,64.02,1079.07,Sistema instável,43.5,9.61,0%,Chefe sobrecarregado
+05/01/2026,2,35.4,9,40.4,23.3,4.0,Turno Integral Delivery,25,6,56.85,287.1,Cancelamento em massa,41.1,17.47,0%,Estoque furado
+06/01/2026,2,60.2,15,60.0,26.6,,Turno Integral Delivery,34,6,58.77,287.03,Sistema instável,79.0,15.42,0%,Estoque furado
+07/01/2026,3,61.3,28,63.8,30.4,3.0,Turno Integral Delivery,57,12,49.77,374.43,Cancelamento em massa,60.3,8.4,0%,Sem planejamento
+08/01/2026,,41.4,16,49.2,20.4,6.0,Almoço e Jantar Delivery,41,10,57.92,351.29,Nenhum,35.2,11.62,0%,Normal crítico
+09/01/2026,4,51.9,24,51.7,16.1,4.0,Almoço e Delivery,52,7,57.39,393.07,Cancelamento em massa,63.7,7.94,0%,Normal crítico
+10/01/2026,5,61.3,21,48.8,27.6,5.0,Almoço e Jantar Delivery,42,5,59.21,231.55,Cancelamento em massa,56.6,10.87,0%,Sem planejamento
+11/01/2026,3,67.2,22,50.9,19.3,4.0,Jantar e Delivery,73,8,51.8,411.75,Nenhum,56.5,14.93,0%,Sem planejamento
+12/01/2026,2,42.2,19,62.0,27.7,4.0,Almoço e Jantar Delivery,46,10,62.79,581.92,Motoboy não compareceu,41.0,17.58,0%,Estoque furado
+13/01/2026,2,106.5,21,42.1,23.4,4.0,Almoço e Jantar Delivery,57,11,63.63,476.73,Queda de pedidos por lentidão,48.4,13.8,0%,Chefe sobrecarregado
+14/01/2026,,67.1,19,45.5,35.0,6.0,Turno Integral Delivery,41,6,56.35,302.32,Erro na API do delivery,55.7,11.88,0%,Normal crítico
+15/01/2026,3,34.6,23,64.4,19.6,3.0,Jantar e Delivery,43,5,47.73,210.9,Cancelamento em massa,36.4,17.02,0%,Estoque furado
+16/01/2026,2,55.9,25,54.2,17.5,4.0,Almoço e Jantar Delivery,43,10,45.99,453.06,Sistema instável,60.9,14.19,0%,Chefe sobrecarregado
+17/01/2026,3,35.6,26,47.7,23.6,4.0,Almoço e Jantar Delivery,59,7,58.55,371.77,Nenhum,34.0,11.28,0%,Desperdício alto
+18/01/2026,3,45.0,25,49.5,16.8,4.0,Turno Integral Delivery,67,11,60.22,535.84,Falta de embalagem,57.8,14.63,0%,Sem planejamento
+19/01/2026,2,46.9,16,53.1,31.7,5.0,Almoço e Jantar Delivery,54,11,47.84,488.55,Erro na API do delivery,61.3,17.18,0%,Desperdício alto
+20/01/2026,3,44.6,17,44.9,28.8,6.0,Turno Integral Delivery,32,5,47.46,152.8,Cancelamento em massa,49.7,15.35,0%,Normal crítico
+21/01/2026,5,90.9,33,44.1,18.1,3.0,Almoço e Delivery,59,15,53.7,610.81,Nenhum,49.1,16.81,Não utilizado,Chefe sobrecarregado
+22/01/2026,2,45.7,9,60.4,24.4,3.0,Almoço e Delivery,25,4,52.64,176.75,Falta de embalagem,65.1,17.44,0%,Normal crítico
+23/01/2026,3,95.0,28,53.1,29.6,4.0,Jantar e Delivery,50,8,60.0,363.98,Comanda digital travada,44.4,16.89,0%,Estoque furado
+24/01/2026,2,54.3,18,44.9,34.2,5.0,Almoço e Delivery,54,7,52.13,268.96,Falta de embalagem,62.5,9.35,0%,Desperdício alto
+25/01/2026,Sem escala,65.1,20,52.7,33.3,4.0,Almoço e Delivery,41,5,57.87,185.45,Nenhum,51.8,11.55,0%,Estoque furado
+26/01/2026,5,33.3 minutos (muito alto),15,42.3,28.0,,Turno Integral Delivery,35,6,51.75,200.9,Nenhum,33.3,11490 gramas,0%,Desperdício alto
+27/01/2026,3,48.1,20,42.3,34.4,3.0,Almoço e Delivery,38,4,58.47,146.75,Erro na API do delivery,45.1,9.89,0%,Estoque furado
+28/01/2026,4,100.5,13,48.1,26.4,3.0,Almoço e Jantar Delivery,41,7,62.42,320.67,Queda de pedidos por lentidão,72.4,9.83,0%,Chefe sobrecarregado
+29/01/2026,5,45.4,18,48.9,32.1,4.0,Almoço e Delivery,40,7,46.13,263.62,Motoboy não compareceu,68.1,15.31,0%,Desperdício alto
+30/01/2026,4,57.6,25,56.0,16.9,5.0,Almoço e Jantar Delivery,55,13,49.28,466.98,Cancelamento em massa,72.6,13.89,0%,Normal crítico
+31/01/2026,4,31.9,18,44.9,Manual (16.3%),6.0,Almoço e Jantar Delivery,53,13,62.56,796.2,Nenhum,39.6 min (cozinha travada),16.86,0%,Desperdício alto
+01/02/2026,4,61.7,24,59.1,33.4,5.0,Almoço e Delivery,53,15,46.0,669.05,Cancelamento em massa,43.4,13.28,0%,Chefe sobrecarregado
+02/02/2026,3,67.8,18,60.0,30.7,4.0,Almoço e Jantar Delivery,48,5,55.86,179.45,Falta de embalagem,31.0,14.51,0%,Estoque furado
+03/02/2026,2,86.3,12,45.5,17.4,4.0,Almoço e Jantar Delivery,38,8,54.11,397.04,Comanda digital travada,64.6,9.75,0%,Sem planejamento
+04/02/2026,3,61.1,14,54.1,28.9,4.0,Turno Integral Delivery,29,3,54.26,147.26,Queda de pedidos por lentidão,61.9,13.11,0%,Desperdício alto
+05/02/2026,3,78.2,23 reclamações,58.5,29.6,4.0,Almoço e Jantar Delivery,48 pedidos (falha sync),8,59.88,391.01,Queda de pedidos por lentidão,24.9,17.34,0%,Estoque furado
+06/02/2026,3,74.2,20,63.0,26.0,4.0,Turno Integral Delivery,34,5,59.97,185.83,Comanda digital travada,31.3,9.85,0%,Chefe sobrecarregado
+07/02/2026,2,65.9,26,49.1,15.6,4.0,Almoço e Delivery,58,7,53.12,332.79,Comanda digital travada,89.7,9.88,0%,Normal crítico
+08/02/2026,3,93.9,17,51.8,34.5,4.0,Jantar e Delivery,42,9,61.66,421.83,Motoboy não compareceu,46.5,16.76,0%,Chefe sobrecarregado
+09/02/2026,3,49.9,28,48.3,28.7,4.0,Jantar e Delivery,56,10,51.0,325.72,Motoboy não compareceu,40.4,7.64,0%,Chefe sobrecarregado
+10/02/2026,5,36.9,19,57.3% (inconsistente),27.1,6.0,Almoço e Jantar Delivery,41,11 cancelados,48.2,423.43,Falta de embalagem,80.7,9.89,Não utilizado,Sem planejamento
+11/02/2026,4,52.4,18,61.1,31.4,4.0,Turno Integral Delivery,49,5,54.61,192.06,Falta de embalagem,54.8,9.94,0%,Sem planejamento
+12/02/2026,4,56.7,16,48.7,20.3,3.0,Almoço e Jantar Delivery,29,5,59.76,267.82,Erro na API do delivery,49.2,12.64,0%,Normal crítico
+13/02/2026,3,66.0,11,58.5,15.9,4.0,Turno Integral Delivery,26,4,61.34,160.59,Comanda digital travada,44.2,15.18,0%,Chefe sobrecarregado
+14/02/2026,3,64.4,33,59.3,18.8,4.0,Almoço e Jantar Delivery,67,19,54.76,861.71,Falta de embalagem,40.6,16.04,0%,Estoque furado
+15/02/2026,3,76.6,27,49.8,29.1,4.0,Jantar e Delivery,69,18,49.09,Estorno: 700.27,Motoboy não compareceu,44.3,10.68,0%,Normal crítico
+16/02/2026,4,50.2,18,63.6,26.6,5.0,Jantar e Delivery,36,7,47.21,219.51,Sistema instável,36.0,17.47,0%,Normal crítico
+17/02/2026,4,47.5,10,58.8,27.4,5.0,Jantar e Delivery,25,7,49.22,208.56,Motoboy não compareceu,64.4,10.5,0%,Desperdício alto
+18/02/2026,4,62.4,18,49.4,33.9,6.0,Turno Integral Delivery,32,5,54.81,244.08,Queda de pedidos por lentidão,50.6,17.77,0%,Sem planejamento
+19/02/2026,4,39.2,13,40.8,17.3,3.0,Almoço e Delivery,31,5,46.3,222.25,Sistema instável,51.1,17.48,0%,Normal crítico
+20/02/2026,2,34.2 minutos (muito alto),19,42.6,24.3,3.0,Almoço e Delivery,,9,59.81,459.75,Cancelamento em massa,55.2,12200 gramas,,Sem planejamento
+21/02/2026,3,70.4,25,52.0,27.3,,Turno Integral Delivery,63,18,63.48,1042.39,Falta de embalagem,57.6,9.8,0%,Desperdício alto
+22/02/2026,4,58.7,21,59.5,22.4,3.0,Turno Integral Delivery,42,6,47.39,194.68,Nenhum,51.4,16.65,0%,Normal crítico
+23/02/2026,3,49.8,21,59.6,26.1,4.0,Almoço e Jantar Delivery,36,6,52.93,207.04,Nenhum,58.6,14.7,0%,Sem planejamento
+24/02/2026,4,75.5,19,52.1,28.0,3.0,Jantar e Delivery,38,7,54.7,376.35,Erro na API do delivery,81.4,14.18,0%,Sem planejamento
+25/02/2026,2,51.0,16,63.1,29.9,5.0,Almoço e Delivery,51,8,59.32,294.45,Sistema instável,77.9,7.59,0%,Desperdício alto
+26/02/2026,3,31.0,22,65.0,25.5,,Almoço e Delivery,50,14,63.34,829.24,Motoboy não compareceu,46.7,15.35,0%,Chefe sobrecarregado
+27/02/2026,4,67.3,30,51.0,32.3,4.0,Turno Integral Delivery,58,6,62.01,236.91,Erro na API do delivery,51.1,8.78,0%,Normal crítico
+28/02/2026,4,57.0,24,48.1,31.1,4.0,Jantar e Delivery,66,10,64.57,531.77,Motoboy não compareceu,84.7,10.77,0%,Estoque furado
+01/03/2026,4,39.6,20,40.2,18.6,5.0,Almoço e Jantar Delivery,41,9,53.95,440.3,Erro na API do delivery,59.3,17.72,0%,Chefe sobrecarregado
+02/03/2026,3,39.2,24,45.7,Manual (26.1%),5.0,Almoço e Jantar Delivery,42,12,R$ 60.91,596.47,Cancelamento em massa,50.5 min (cozinha travada),12.96,Não utilizado,Chefe sobrecarregado
+03/03/2026,5,67.3,19,62.5,34.0,4.0,Turno Integral Delivery,55,12,58.91,637.69,Falta de embalagem,49.8,14.62,0%,Desperdício alto
+04/03/2026,4,59.1,15,55.2,23.5,4.0,Almoço e Jantar Delivery,28,3,45.91,121.72,Erro na API do delivery,33.7,13.73,0%,Estoque furado
+05/03/2026,4,54.1,23,47.0,15.1,3.0,Almoço e Jantar Delivery,57,15,50.91,585.29,Comanda digital travada,61.5,11.38,0%,Chefe sobrecarregado
+06/03/2026,3,49.6,19,47.5,22.2,,Turno Integral Delivery,46,9,54.16,403.62,Nenhum,51.6,17.76,0%,Sem planejamento
+07/03/2026,3,51.8,23,50.7,26.7,5.0,Almoço e Delivery,49,11,60.43,500.73,Comanda digital travada,41.2,12.48,0%,Normal crítico
+08/03/2026,4,57.8,21,47.2,29.5,4.0,Almoço e Delivery,50,14,47.18,595.59,Cancelamento em massa,57.2,15.15,0%,Chefe sobrecarregado
+09/03/2026,2,50.2,19,40.4,17.5,6.0,Almoço e Delivery,38,6,47.62,246.94,Erro na API do delivery,73.4,8.11,0%,Chefe sobrecarregado
+10/03/2026,,50.8,17,49.7,26.4,3.0,Almoço e Delivery,39,9,64.86,515.25,Cancelamento em massa,48.4,14.61,0%,Estoque furado
+11/03/2026,3,42.6,34,52.4,20.9,4.0,Turno Integral Delivery,57,15,62.11,862.0,Nenhum,49.0,15.0,0%,Chefe sobrecarregado
+12/03/2026,3,34.2,16 reclamações,54.9,31.0,4.0,Almoço e Jantar Delivery,32 pedidos (falha sync),8,58.23,418.44,Sistema instável,53.8,16.2,0%,Desperdício alto
+13/03/2026,4,54.4,22,44.2,29.8,4.0,Almoço e Jantar Delivery,58,9,63.29,434.19,Motoboy não compareceu,61.1,12.89,0%,Desperdício alto
+14/03/2026,4,76.0,20,47.0,16.6,4.0,Almoço e Delivery,48,9,46.38,323.86,Nenhum,66.9,11.93,0%,Sem planejamento
+15/03/2026,5,28.1,24,55.0,24.6,4.0,Almoço e Jantar Delivery,54,13,63.62,686.01,Motoboy não compareceu,42.9,17.91,0%,Desperdício alto
+16/03/2026,3,60.5,28,46.3,16.4,4.0,Jantar e Delivery,59,8,63.55,312.47,Queda de pedidos por lentidão,38.1,9.79,0%,Desperdício alto
+17/03/2026,3,75.0 minutos (muito alto),17,53.1,27.5,5.0,Jantar e Delivery,42,8,56.66,326.95,Erro na API do delivery,45.9,7820 gramas,0%,Normal crítico
+18/03/2026,5,83.7,11,51.3,34.4,3.0,Almoço e Delivery,34,5,64.13,210.38,Erro na API do delivery,52.5,9.32,0%,Normal crítico
+19/03/2026,3,129.1,14,63.1,27.0,3.0,Almoço e Jantar Delivery,35,7,47.42,260.71,Comanda digital travada,67.8,9.91,0%,Estoque furado
+20/03/2026,5,59.1,24,58.3,15.0,5.0,Jantar e Delivery,55,8,58.05,279.92,Comanda digital travada,46.6,14.73,0%,Desperdício alto
+21/03/2026,4,64.8,17,47.1,32.2,5.0,Almoço e Jantar Delivery,40,6,45.37,269.73,Erro na API do delivery,120.8,15.01,0%,Estoque furado
+22/03/2026,,44.1,28,42.6% (inconsistente),20.7,4.0,Turno Integral Delivery,54,6 cancelados,48.44,200.32,Motoboy não compareceu,44.0,10.61,Não utilizado,Normal crítico
+23/03/2026,3,44.6,18,53.8,18.4,6.0,Almoço e Delivery,42,8,61.45,369.52,Comanda digital travada,33.7,13.93,0%,Desperdício alto
+24/03/2026,5,72.2,9,58.3,17.4,5.0,Turno Integral Delivery,25,5,61.27,304.91,Sistema instável,43.8,12.75,0%,Normal crítico
+25/03/2026,3,48.0,14,58.3,30.3,6.0,Turno Integral Delivery,46,9,48.06,278.86,Erro na API do delivery,47.0,8.15,0%,Sem planejamento
+26/03/2026,2,46.5,28,63.2,34.5,4.0,Almoço e Delivery,50,5,55.4,214.75,Nenhum,65.5,8.71,0%,Desperdício alto
+27/03/2026,3,51.0,12,65.0,23.7,3.0,Turno Integral Delivery,35,6,48.79,177.58,Erro na API do delivery,35.1,9.35,0%,Normal crítico
+28/03/2026,4,43.8,36,46.3,25.3,4.0,Jantar e Delivery,67,19,47.56,852.27,Cancelamento em massa,49.0,16.7,0%,Normal crítico
+29/03/2026,3,62.4,23,48.7,19.2,5.0,Turno Integral Delivery,40,7,45.51,272.13,Falta de embalagem,49.1,7.89,0%,Chefe sobrecarregado
+30/03/2026,3,50.2,15,40.3,17.8,6.0,Almoço e Jantar Delivery,50,11,56.66,523.13,Nenhum,55.3,17.84,0%,Desperdício alto
+31/03/2026,4,62.8,32,63.4,31.9,3.0,Almoço e Delivery,54,12,51.32,395.53,Cancelamento em massa,41.5,13.65,0%,Estoque furado
+01/04/2026,4,57.5,17,51.9,Manual (21.9%),4.0,Almoço e Jantar Delivery,41,6,52.16,Estorno: 272.16,Motoboy não compareceu,43.3 min (cozinha travada),15.44,0%,Estoque furado
+02/04/2026,3,59.3,27,40.3,30.1,,Jantar e Delivery,57,7,60.59,411.21,Cancelamento em massa,37.1,14.36,0%,Normal crítico
+03/04/2026,4,66.4,27,41.1,17.2,5.0,Jantar e Delivery,58,11,62.21,522.65,Comanda digital travada,50.0,10.99,0%,Estoque furado
+04/04/2026,2,49.6,22,49.9,34.2,3.0,Jantar e Delivery,74,19,58.11,707.86,Cancelamento em massa,40.8,11.87,0%,Estoque furado
+05/04/2026,4,62.1,34,47.9,15.7,5.0,Almoço e Jantar Delivery,73,15,54.83,698.61,Erro na API do delivery,72.2,9.05,0%,Desperdício alto
+06/04/2026,3,61.3,15,45.8,20.0,,Almoço e Delivery,35,8,45.67,227.5,Sistema instável,50.7,14.16,0%,Chefe sobrecarregado
+07/04/2026,Sem escala,34.5,12,57.4,15.9,6.0,Turno Integral Delivery,38,5,53.64,251.53,Falta de embalagem,47.2,14.6,0%,Desperdício alto
+08/04/2026,2,30.6,23,63.3,31.6,5.0,Turno Integral Delivery,54,15,55.18,672.9,Nenhum,54.6,11.24,0%,Estoque furado
+09/04/2026,Sem escala,43.7,8,60.9,17.3,6.0,Jantar e Delivery,28,3,58.52,173.55,Sistema instável,57.2,16.3,0%,Chefe sobrecarregado
+10/04/2026,3,99.0,20,41.7,24.3,4.0,Almoço e Jantar Delivery,57,6,45.51,181.45,Cancelamento em massa,39.4,16.13,0%,Normal crítico
+11/04/2026,3,59.1 minutos (muito alto),21,48.7,28.0,6.0,Almoço e Jantar Delivery,,8,60.46,391.49,Sistema instável,46.5,12890 gramas,Não utilizado,Sem planejamento
+12/04/2026,4,38.3,28,48.9,34.8,4.0,Almoço e Jantar Delivery,59,10,49.84,330.41,Nenhum,38.1,9.13,0%,Chefe sobrecarregado
+13/04/2026,3,33.0,15,57.4,16.6,6.0,Almoço e Delivery,49,5,49.18,151.34,Falta de embalagem,64.1,13.41,0%,Sem planejamento
+14/04/2026,,68.7,13,45.9,30.4,4.0,Turno Integral Delivery,31,4,56.14,174.5,Cancelamento em massa,41.4,10.47,0%,Desperdício alto
+15/04/2026,2,46.6,33,56.3,22.5,4.0,Almoço e Delivery,57,15,52.61,514.75,Erro na API do delivery,41.6,16.46,0%,Normal crítico
+16/04/2026,3,51.6,13 reclamações,58.6,27.0,5.0,Almoço e Delivery,39 pedidos (falha sync),9,55.27,379.68,Queda de pedidos por lentidão,41.1,11.2,0%,Estoque furado
+17/04/2026,3,69.8,8,55.3,34.2,5.0,Almoço e Jantar Delivery,27,4,61.07,237.12,Queda de pedidos por lentidão,42.5,13.4,0%,Desperdício alto
+18/04/2026,4,73.4,13,62.6,32.9,5.0,Turno Integral Delivery,43,4,46.46,169.44,Falta de embalagem,72.1,16.83,0%,Chefe sobrecarregado
+19/04/2026,2,46.8,37,55.8,29.7,4.0,Turno Integral Delivery,64,13,49.92,574.34,Nenhum,39.5,17.98,0%,Estoque furado
+20/04/2026,3,47.6,12,45.4,17.6,4.0,Turno Integral Delivery,25,7,52.11,340.56,Queda de pedidos por lentidão,33.7,13.87,0%,Sem planejamento
+21/04/2026,4,77.0,7,54.6,16.2,6.0,Almoço e Delivery,26,5,61.21,288.27,Queda de pedidos por lentidão,35.8,10.18,0%,Estoque furado
+22/04/2026,5,37.7,15,53.0,26.1,5.0,Jantar e Delivery,35,6,62.8,249.1,Comanda digital travada,52.4,11.94,0%,Normal crítico
+23/04/2026,5,43.8,15,64.9,29.5,4.0,Jantar e Delivery,29,4,52.79,170.94,Comanda digital travada,36.2,13.28,0%,Estoque furado
+24/04/2026,3,57.2,15,51.9,18.3,5.0,Almoço e Delivery,36,4,56.33,203.76,Falta de embalagem,42.8,7.86,0%,Sem planejamento
+25/04/2026,Sem escala,68.3,29,43.1,26.0,6.0,Turno Integral Delivery,67,13,52.54,471.83,Sistema instável,48.6,13.24,0%,Chefe sobrecarregado
+26/04/2026,3,45.2,19,50.0,29.2,3.0,Jantar e Delivery,60,17,59.79,707.26,Falta de embalagem,57.6,13.79,0%,Estoque furado
+27/04/2026,4,60.1,22,57.8,30.6,4.0,Almoço e Jantar Delivery,58,7,46.49,323.99,Falta de embalagem,56.3,16.69,0%,Chefe sobrecarregado
+28/04/2026,4,64.1,16,57.4,17.2,3.0,Jantar e Delivery,33,9,64.1,395.41,Motoboy não compareceu,58.7,7.6,0%,Chefe sobrecarregado
+29/04/2026,2,33.8,24,50.3,28.6,6.0,Jantar e Delivery,54,13,50.05,457.11,Comanda digital travada,48.0,11.44,0%,Desperdício alto
+30/04/2026,4,60.2,19,63.9,31.4,5.0,Almoço e Jantar Delivery,35,7,45.38,256.96,Motoboy não compareceu,31.7,12.29,0%,Sem planejamento
+01/05/2026,4,43.9,13,50.3% (inconsistente),Manual (19.8%),5.0,Turno Integral Delivery,33,6 cancelados,R$ 58.93,293.53,Cancelamento em massa,45.4 min (cozinha travada),14.76,Não utilizado,Desperdício alto
+02/05/2026,5,52.2,23,63.0,25.1,4.0,Almoço e Delivery,61,16,57.83,623.4,Cancelamento em massa,46.6,7.8,0%,Estoque furado
+03/05/2026,4,69.6,35,57.5,33.5,3.0,Almoço e Delivery,64,16,58.33,749.09,Falta de embalagem,80.8,11.91,0%,Sem planejamento
+04/05/2026,2,43.2,12,54.5,31.2,6.0,Jantar e Delivery,31,6,45.88,268.03,Sistema instável,50.5,11.62,0%,Estoque furado
+05/05/2026,5,44.0,15,48.7,22.0,6.0,Turno Integral Delivery,44,8,62.91,430.38,Motoboy não compareceu,38.8,8.7,0%,Chefe sobrecarregado
+06/05/2026,4,50.1 minutos (muito alto),23,46.0,27.1,6.0,Almoço e Jantar Delivery,58,13,56.94,638.23,Cancelamento em massa,43.0,14710 gramas,0%,Sem planejamento
+07/05/2026,4,58.2,21,43.2,26.5,4.0,Almoço e Jantar Delivery,49,13,61.54,488.85,Sistema instável,64.5,15.42,0%,Chefe sobrecarregado
+08/05/2026,4,42.4,24,62.6,23.7,4.0,Turno Integral Delivery,50,12,61.64,541.38,Comanda digital travada,33.4,17.3,0%,Sem planejamento
+09/05/2026,3,44.2,39,43.5,20.3,4.0,Almoço e Delivery,66,19,61.69,731.36,Falta de embalagem,63.4,12.88,0%,Sem planejamento
+10/05/2026,5,37.9,19,55.3,23.3,,Almoço e Delivery,41,8,45.24,256.27,Nenhum,44.5,17.35,0%,Chefe sobrecarregado
+11/05/2026,4,89.0,21,62.1,23.9,3.0,Almoço e Jantar Delivery,51,11,47.83,387.12,Nenhum,55.1,11.37,0%,Normal crítico
+12/05/2026,3,52.2,14,60.8,29.4,4.0,Jantar e Delivery,40,11,56.63,380.05,Erro na API do delivery,28.7,17.48,0%,Desperdício alto
+13/05/2026,4,37.3,18,50.1,23.1,5.0,Almoço e Delivery,34,9,62.47,387.82,Nenhum,45.0,15.93,0%,Estoque furado
+14/05/2026,2,52.1,20,61.7,17.1,5.0,Jantar e Delivery,54,9,57.61,471.11,Comanda digital travada,35.0,14.41,0%,Normal crítico
+15/05/2026,3,54.0,17,58.9,23.8,4.0,Almoço e Delivery,44,9,58.31,432.19,Falta de embalagem,52.7,15.05,0%,Estoque furado
+16/05/2026,4,59.8,22,64.3,32.1,4.0,Almoço e Delivery,59,10,48.48,Estorno: 449.6,Motoboy não compareceu,44.6,11.36,0%,Normal crítico
+17/05/2026,3,55.5,31,48.9,17.3,5.0,Turno Integral Delivery,74,19,50.91,809.37,Comanda digital travada,45.7,9.77,0%,Desperdício alto
+18/05/2026,3,39.1,27,63.5,29.9,4.0,Almoço e Delivery,52,7,58.72,334.49,Comanda digital travada,39.2,11.27,0%,Normal crítico
+19/05/2026,4,73.0,19,51.2,22.6,3.0,Turno Integral Delivery,37,4,60.09,184.81,Nenhum,34.9,8.67,0%,Estoque furado
+20/05/2026,5,72.1,17,61.9,32.0,4.0,Jantar e Delivery,37,7,56.9,343.1,Comanda digital travada,39.6,10.79,0%,Estoque furado
+21/05/2026,3,39.4,24 reclamações,64.2,28.5,5.0,Jantar e Delivery,42 pedidos (falha sync),4,55.59,211.29,Erro na API do delivery,47.2,12.59,Não utilizado,Estoque furado
+22/05/2026,2,50.5,13,51.4,28.8,4.0,Jantar e Delivery,30,3,45.01,111.02,Erro na API do delivery,51.4,16.65,0%,Chefe sobrecarregado
+23/05/2026,2,76.9,20,46.2,17.1,4.0,Almoço e Delivery,63,18,45.1,497.63,Cancelamento em massa,47.8,10.12,0%,Desperdício alto
+24/05/2026,4,51.1,26,51.0,28.2,3.0,Almoço e Delivery,60,7,48.69,296.81,Nenhum,59.8,12.97,0%,Normal crítico
+25/05/2026,3,38.9,34,64.1,20.0,5.0,Almoço e Delivery,57,6,55.92,259.45,Nenhum,55.3,9.8,0%,Sem planejamento
+26/05/2026,4,50.8,23,40.4,25.0,3.0,Jantar e Delivery,54,15,59.03,857.23,Falta de embalagem,33.1,9.12,0%,Desperdício alto
+27/05/2026,4,61.3,20,54.4,30.0,4.0,Jantar e Delivery,55,7,50.45,352.8,Queda de pedidos por lentidão,51.3,15.56,0%,Chefe sobrecarregado
+28/05/2026,4,48.8,22,40.1,21.0,5.0,Jantar e Delivery,43,5,49.37,159.72,Nenhum,50.0,12.15,0%,Normal crítico
+29/05/2026,3,38.1,10,62.7,31.6,5.0,Turno Integral Delivery,31,3,56.15,160.84,Falta de embalagem,60.0,7.61,0%,Desperdício alto
+30/05/2026,4,55.9,30,52.3,17.1,5.0,Turno Integral Delivery,56,6,47.62,191.55,Sistema instável,41.2,14.52,0%,Chefe sobrecarregado
+31/05/2026,5,47.7 minutos (muito alto),24,41.0,Manual (20.6%),5.0,Turno Integral Delivery,,12,51.91,449.56,Falta de embalagem,43.9 min (cozinha travada),10710 gramas,,Desperdício alto
+01/06/2026,4,38.3,16,41.5,28.2,3.0,Almoço e Delivery,49,5,58.01,217.53,Queda de pedidos por lentidão,50.8,14.33,0%,Sem planejamento
+02/06/2026,5,47.9,16,50.4,25.3,,Almoço e Jantar Delivery,36,5,60.81,188.62,Motoboy não compareceu,36.3,10.8,0%,Estoque furado
+03/06/2026,3,67.6,18,62.2,16.8,3.0,Jantar e Delivery,51,5,60.07,223.39,Sistema instável,39.0,14.38,0%,Normal crítico
+04/06/2026,5,61.8,25,55.2,23.2,5.0,Almoço e Jantar Delivery,43,8,51.4,361.69,Sistema instável,37.6,12.72,0%,Chefe sobrecarregado
+05/06/2026,2,36.0,25,42.0,16.2,5.0,Almoço e Delivery,54,7,46.48,201.61,Queda de pedidos por lentidão,45.2,11.42,0%,Estoque furado
+06/06/2026,,43.3,21,60.7,25.0,5.0,Turno Integral Delivery,66,14,59.87,661.75,Queda de pedidos por lentidão,49.7,17.05,0%,Desperdício alto
+07/06/2026,3,49.5,21,41.1,31.3,4.0,Almoço e Delivery,53,9,48.34,298.38,Cancelamento em massa,49.0,9.65,0%,Normal crítico
+08/06/2026,2,51.3,14,50.9,26.9,6.0,Turno Integral Delivery,42,11,56.84,445.33,Cancelamento em massa,60.3,14.85,0%,Chefe sobrecarregado
+09/06/2026,2,68.0,15,62.4,27.0,3.0,Almoço e Delivery,32,6,45.45,200.78,Erro na API do delivery,59.7,16.29,0%,Chefe sobrecarregado
+10/06/2026,4,42.6,32,41.3% (inconsistente),15.5,3.0,Almoço e Jantar Delivery,59,16 cancelados,57.32,680.02,Comanda digital travada,46.1,9.68,Não utilizado,Chefe sobrecarregado
+11/06/2026,4,38.0,15,63.4,21.8,3.0,Turno Integral Delivery,44,12,61.3,611.29,Motoboy não compareceu,32.0,9.77,0%,Chefe sobrecarregado
+12/06/2026,Sem escala,37.6,8,59.6,19.3,4.0,Almoço e Jantar Delivery,29,3,62.44,150.22,Erro na API do delivery,53.4,10.43,0%,Normal crítico
+13/06/2026,4,53.1,25,55.8,32.9,,Jantar e Delivery,45,7,62.78,382.5,Sistema instável,55.4,15.88,0%,Estoque furado
+14/06/2026,3,40.1,21,59.0,22.9,5.0,Turno Integral Delivery,42,4,60.89,201.87,Falta de embalagem,47.0,12.57,0%,Chefe sobrecarregado
+15/06/2026,3,85.9,13,61.5,17.9,4.0,Almoço e Jantar Delivery,42,8,61.63,345.13,Motoboy não compareceu,29.8,7.33,0%,Desperdício alto
+16/06/2026,2,43.2,10,43.6,18.1,6.0,Almoço e Jantar Delivery,27,6,54.6,207.04,Comanda digital travada,60.0,12.59,0%,Sem planejamento
+17/06/2026,5,55.3,11,57.6,22.1,3.0,Turno Integral Delivery,28,3,46.63,108.05,Motoboy não compareceu,31.2,7.88,0%,Chefe sobrecarregado
+18/06/2026,3,43.1,19,45.1,19.9,6.0,Almoço e Delivery,59,17,59.42,833.56,Motoboy não compareceu,35.2,13.58,0%,Sem planejamento
+19/06/2026,2,40.4,27,48.6,22.8,4.0,Almoço e Delivery,58,16,57.61,698.92,Motoboy não compareceu,38.1,9.52,0%,Desperdício alto
+20/06/2026,3,36.7,22,60.6,30.5,4.0,Almoço e Jantar Delivery,41,7,61.09,266.71,Nenhum,30.3,11.46,0%,Chefe sobrecarregado
+21/06/2026,3,53.1,22,47.0,26.6,5.0,Turno Integral Delivery,44,10,62.18,420.67,Falta de embalagem,38.4,14.55,0%,Normal crítico
+22/06/2026,3,70.1,24,53.3,32.8,,Almoço e Delivery,46,6,56.64,301.57,Sistema instável,55.4,7.08,0%,Sem planejamento
+23/06/2026,4,51.8,27,63.3,19.6,3.0,Almoço e Jantar Delivery,50,14,61.2,792.39,Falta de embalagem,38.1,8.27,0%,Desperdício alto
+24/06/2026,4,60.1,10,60.1,35.0,4.0,Almoço e Delivery,33,5,52.63,235.87,Motoboy não compareceu,66.3,15.6,0%,Normal crítico
+25/06/2026,3,65.9 minutos (muito alto),21 reclamações,49.0,31.1,6.0,Almoço e Delivery,46 pedidos (falha sync),8,59.11,434.85,Queda de pedidos por lentidão,43.0,9920 gramas,0%,Normal crítico
+26/06/2026,4,40.1,15,43.5,33.0,6.0,Almoço e Jantar Delivery,28,5,53.66,191.33,Cancelamento em massa,37.9,12.48,0%,Sem planejamento
+27/06/2026,3,39.3,17,61.2,21.0,5.0,Almoço e Delivery,43,10,59.68,411.42,Comanda digital travada,38.2,17.79,0%,Chefe sobrecarregado
+28/06/2026,5,48.6,22,44.0,33.8,,Turno Integral Delivery,47,10,62.95,577.39,Comanda digital travada,63.4,17.41,0%,Chefe sobrecarregado
+29/06/2026,3,103.0,17,45.0,32.9,3.0,Jantar e Delivery,51,14,61.93,659.34,Erro na API do delivery,40.2,12.73,0%,Sem planejamento
+30/06/2026,3,35.6,23,44.3,Manual (24.9%),3.0,Turno Integral Delivery,54,9,R$ 47.06,Estorno: 304.08,Comanda digital travada,57.1 min (cozinha travada),7.39,Não utilizado,Chefe sobrecarregado
