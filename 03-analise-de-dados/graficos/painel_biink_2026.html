@@ -1,0 +1,210 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BiInk | Painel do delivery 2026</title>
+<style>
+  :root {
+    --tinta:#14213D; --papel:#F3F5F7; --cartao:#FFFFFF; --linha:#D9DEE4;
+    --prazo:#1B998B; --atraso:#e4e12e; --neutro:#7333bb; --alerta:#F2A541; --texto:#26303F; --suave:#5C6877;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --papel:#0E1624; --cartao:#16213A; --linha:#2A3754; --texto:#E6EBF2; --suave:#9AA7BA; --tinta:#E6EBF2; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--papel); color:var(--texto);
+         font-family:"Segoe UI", system-ui, -apple-system, Roboto, sans-serif; line-height:1.5; }
+  header { background:#eef076; color:#14213D; padding:28px 24px 24px; display:flex; justify-content:space-between; align-items:center; gap:24px; }
+  header h1 { margin:0 0 4px; font-size:1.7rem; letter-spacing:-.01em;}
+  header p { margin:0; color:#0b2552bd; max-width:70ch; }
+  main { max-width:1080px; margin:0 auto; padding:24px 16px 56px; display:grid; gap:24px; }
+  section { background:var(--cartao); border:1px solid var(--linha); border-radius:10px; padding:22px; }
+  section h2 { margin:0 0 4px; font-size:1.2rem; }
+  .problemas { margin:0 0 14px; color:var(--suave); font-size:.92rem; }
+  .grafico { position:relative; height:360px; }
+  .leitura { margin:16px 0 0; padding:12px 14px; border-left:4px solid var(--atraso);
+             background:color-mix(in srgb, var(--atraso) 8%, transparent); max-width:80ch; }
+  .nota { margin:10px 0 0; color:var(--suave); font-size:.86rem; max-width:90ch; }
+  h2.semestre { margin:8px 0 -8px; font-size:1.45rem; }
+  footer { max-width:1080px; margin:0 auto; padding:0 16px 40px; color:var(--suave); font-size:.85rem; }
+  @media (max-width:640px) { .grafico { height:300px; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>BiInk | Painel do delivery</h1>
+  <p>Janeiro a Dezembro de 2026. O 1º semestre vem das planilhas de faturamento, entrega e preparo (2026/01). O 2º semestre são valores planejados, calculados pelos Modelos de Otimização e pelas metas SMART. O baseline de 2025 vem da operação presencial. Atualizado em 11/2026.</p>
+</header>
+<main>
+  <h2 class="semestre">1º semestre (janeiro a junho)</h2>
+  <section>
+    <h2>Operação e entregas</h2>
+    <p class="problemas">Problema 1: atraso nas entregas. Problema 2: falta de motoboys.</p>
+    <div class="grafico"><canvas id="g1" role="img" aria-label="Barras de pedidos mensais recebidos, entregues no prazo e atrasados, e linha de adoção de motoboy"></canvas></div>
+    <p class="leitura">43,7% dos pedidos recebidos (54,1% dos entregues) chegam atrasados, mês após mês. Nos dados diários, a adoção do módulo de motoboy quase não se relaciona com a taxa de atrasos (correlação de 0,02), então a amostra não indica que a falta de entregadores explique os atrasos.</p>
+  </section>
+  <section>
+    <h2>Produção e desperdício</h2>
+    <p class="problemas">Problema 3: desperdício de alimentos. Problema 4: falta de controle dos recursos.</p>
+    <div class="grafico"><canvas id="g2" role="img" aria-label="Linhas mensais de kg descartados, custo estimado e pedidos recebidos"></canvas></div>
+    <p class="leitura">Foram 2.328 kg descartados no período, com pico em Jan. O custo estimado é de R$ 27.941,76 (R$ 12 por kg).</p>
+  </section>
+  <section>
+    <h2>Gestão e desempenho</h2>
+    <p class="problemas">Problema 5: falta de informação para decidir. Problema 6: dificuldade no controle dos resultados.</p>
+    <div class="grafico"><canvas id="g3" role="img" aria-label="Pareto do impacto financeiro estimado por problema"></canvas></div>
+    <p class="leitura">Cancelamentos e reembolsos lidera, com 61% do impacto estimado (R$ 88.275,00 de R$ 145.448,76).</p>
+    <p class="nota">Impacto estimado: cancelados × R$ 55; kg descartados × R$ 12; pedidos atrasados × R$ 8.</p>
+  </section>
+  <h2 class="semestre">2º semestre (julho a dezembro)</h2>
+  <section>
+    <h2>Logística de entregas</h2>
+    <p class="problemas">Problema 2: minimizar o custo logístico com o Ponto de Apoio.</p>
+    <div class="grafico"><canvas id="g4" role="img" aria-label="Barras do custo logístico diário por configuração e pedidos no reforço"></canvas></div>
+    <p class="leitura">Abrir o Ponto de Apoio reduz o custo logístico de R$ 424,80 para R$ 351,20 por dia em agosto e setembro e para R$ 316,00 de outubro a dezembro, quando o reforço deixa de ser usado. Se o motoboy falhar, o custo sobe para R$ 484,80, R$ 133,60 acima do esperado.</p>
+  </section>
+  <section>
+    <h2>Experiência do cliente</h2>
+    <p class="problemas">Problema 1: maximizar o lucro com atendimento de experiência garantida.</p>
+    <div class="grafico"><canvas id="g5" role="img" aria-label="Linhas quinzenais de lucro diário esperado e cancelamento esperado"></canvas></div>
+    <p class="leitura">O lucro diário esperado vai de R$ 473,01 na 1ª quinzena de julho para R$ 560,85 a partir de setembro, contra R$ 429,09 hoje. O cancelamento esperado cai de 16,8% para 11,9% (hoje 19,2%) e fica abaixo do limite de 15% a partir da 2ª quinzena de julho.</p>
+  </section>
+  <section>
+    <h2>Ganho esperado</h2>
+    <p class="problemas">Problemas 1 e 2 somados: ganho de lucro e economia de custo, mês a mês.</p>
+    <div class="grafico"><canvas id="g6" role="img" aria-label="Cascata do ganho esperado mensal até o total de dezembro"></canvas></div>
+    <p class="leitura">Somando a experiência do cliente (R$ 21.542,76) e a logística (R$ 14.499,20), o ganho esperado até dezembro é de R$ 36.041,96. Os dois ganhos foram calculados separadamente e podem se sobrepor em parte.</p>
+  </section>
+  <h2 class="semestre">Visão geral: 2025 × 1º semestre × projeção do 2º semestre</h2>
+  <section>
+    <h2>Preparo e desperdício</h2>
+    <p class="problemas">Metas SMART: reduzir 15% do desperdício e chegar a 95% de precisão do ciclo do pedido.</p>
+    <div class="grafico"><canvas id="g7" role="img" aria-label="Barras de tempo de preparo, desperdício e precisão em 2025, 1º semestre e projeção"></canvas></div>
+    <p class="leitura">O desperdício médio passou de 7,55 kg/dia (2025) para 12,86 kg/dia no delivery. A projeção é de 6,20 kg/dia, 52% abaixo do 1º semestre. A precisão de status vai de 52,7% para a meta de 95%.</p>
+  </section>
+  <section>
+    <h2>Entrega e desempenho do delivery</h2>
+    <p class="problemas">Metas SMART: 80% de adoção do módulo de motoboys e redução dos atrasos.</p>
+    <div class="grafico"><canvas id="g8" role="img" aria-label="Barras de taxa de atraso, adoção de motoboy e cancelamento"></canvas></div>
+    <p class="leitura">Atraso de 43,7%, cancelamento de 19,2% e adoção de 25,1% no 1º semestre. A projeção leva esses indicadores para 14,2%, 2,8% e 82,5%.</p>
+    <p class="nota">Em 2025 o atraso refere-se ao preparo no salão (pedidos com atraso de preparo ÷ pedidos). O cancelamento de 2025 (4,5%) é a referência do baseline, sem dado na tabela.</p>
+  </section>
+  <section>
+    <h2>Faturamento e volume de pedidos</h2>
+    <p class="problemas">Faturamento diário, pedidos por dia e ticket médio.</p>
+    <div class="grafico"><canvas id="g9" role="img" aria-label="Linhas de faturamento diário, pedidos por dia e ticket médio"></canvas></div>
+    <p class="leitura">O faturamento diário foi de R$ 3.647,60 em 2025 e de R$ 2.052,32 no 1º semestre de 2026. A projeção do 2º semestre é de R$ 4.750,00 por dia, com 98 pedidos/dia e ticket de R$ 56,50.</p>
+  </section>
+</main>
+<footer>Gerado por painel_biink_atualizado.py a partir de dados_consolidados_2025.csv e dados_consolidados_2026_01.csv</footer>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script>
+const D = {"g1": {"meses": ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun"], "recebidos": [1430, 1261, 1422, 1388, 1516, 1342], "no_prazo": [544, 459, 496, 550, 541, 510], "atrasados": [623, 562, 642, 579, 676, 572], "adocao_motoboy": [25.0, 26.4, 24.3, 25.2, 24.9, 25.1]}, "g2": {"meses": ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun"], "kg": [426.3, 359.7, 398.6, 388.1, 390.4, 365.4], "custo": [5115.6, 4316.76, 4783.32, 4657.08, 4684.2, 4384.8], "pedidos": [1430, 1261, 1422, 1388, 1516, 1342]}, "g3": {"fatores": ["Cancelamentos e reembolsos", "Atrasos nas entregas", "Desperdício de alimentos"], "valores": [88275.0, 29232.0, 27941.76], "acumulado": [60.7, 80.8, 100.0]}, "g4": {"cenarios": [["Hoje", "Central + reforço"], ["Ago–Set", "Apoio + 1 motoboy"], ["Out–Dez", "Apoio + 2 motoboys"], ["Cenário de falha", "Apoio sem motoboy"]], "custo": [424.8, 351.2, 316.0, 484.8], "reforco": [18, 4, 0, 18]}, "g5": {"quinzenas": ["Jul 1ª", "Jul 2ª", "Ago 1ª", "Ago 2ª", "Set 1ª", "Set 2ª", "Out 1ª", "Out 2ª", "Nov 1ª", "Nov 2ª", "Dez 1ª", "Dez 2ª"], "lucro": [473.01, 516.93, 538.89, 538.89, 560.85, 560.85, 560.85, 560.85, 560.85, 560.85, 560.85, 560.85], "cancelamento": [16.8, 14.3, 13.1, 13.1, 11.9, 11.9, 11.9, 11.9, 11.9, 11.9, 11.9, 11.9], "lucro_hoje": 429.09, "cancel_hoje": 19.2, "limite": 15.0}, "g6": {"meses": ["Jul", "Ago", "Set", "Out", "Nov", "Dez", "Total"], "base": [0.0, 2064.24, 7749.64, 13910.44, 21367.8, 28584.6, 0], "experiencia": [2064.24, 3403.8, 3952.8, 4084.56, 3952.8, 4084.56, null], "logistica": [0.0, 2281.6, 2208.0, 3372.8, 3264.0, 3372.8, null], "total_geral": [null, null, null, null, null, null, 36041.96]}, "g7": {"periodos": ["2025 (presencial)", "1º sem. 2026", "2º sem. 2026 (projeção)"], "prep": [33.29, 49.84, 25.5], "desp": [7.55, 12.86, 6.2], "prec": [99.55, 52.69, 95.0], "atraso": [18.03, 43.71, 14.2], "adocao": [0.0, 25.14, 82.5], "canc": [4.5, 19.2, 2.8], "fat": [3647.6, 2052.32, 4750.0], "ped": [70.11, 46.18, 98.0], "ticket": [52.03, 55.0, 56.5]}};
+const css = getComputedStyle(document.documentElement);
+const cor = n => css.getPropertyValue(n).trim();
+Chart.defaults.font.family = '"Segoe UI", system-ui, sans-serif';
+Chart.defaults.color = cor('--suave');
+Chart.defaults.borderColor = cor('--linha');
+const base = { responsive:true, maintainAspectRatio:false, interaction:{mode:'index', intersect:false},
+               plugins:{ legend:{position:'bottom'} } };
+const fmt = v => v.toLocaleString('pt-BR');
+const brl = v => v.toLocaleString('pt-BR', {style:'currency', currency:'BRL'});
+const lin = (label, data, c, extra={}) => ({ label, data, borderColor:cor(c), backgroundColor:cor(c), tension:.25, pointRadius:4, ...extra });
+
+new Chart(document.getElementById('g1'), {
+  data: {
+    labels: D.g1.meses,
+    datasets: [
+      { type:'bar', label:'Pedidos recebidos', data:D.g1.recebidos, backgroundColor:cor('--neutro') },
+      { type:'bar', label:'Entregues no prazo', data:D.g1.no_prazo, backgroundColor:cor('--prazo') },
+      { type:'bar', label:'Pedidos atrasados', data:D.g1.atrasados, backgroundColor:cor('--atraso') },
+      { type:'line', label:'Adoção do módulo de motoboy (%)', data:D.g1.adocao_motoboy, yAxisID:'y1', borderColor:cor('--tinta'), backgroundColor:cor('--tinta'), tension:.25, pointRadius:4 }
+    ]
+  },
+  options: { ...base, scales:{ y:{ beginAtZero:true, title:{display:true, text:'Pedidos no mês'} }, y1:{ position:'right', min:0, max:60, grid:{drawOnChartArea:false}, title:{display:true, text:'Adoção (%)'} } } }
+});
+
+new Chart(document.getElementById('g2'), {
+  type:'line',
+  data: { labels: D.g2.meses, datasets: [
+    lin('Alimentos descartados (kg)', D.g2.kg, '--atraso'),
+    lin('Pedidos recebidos (produção)', D.g2.pedidos, '--neutro'),
+    lin('Custo do desperdício (R$, estimado)', D.g2.custo, '--alerta', { yAxisID:'y1', borderDash:[6,4] })
+  ]},
+  options: { ...base, scales:{ y:{ beginAtZero:true, title:{display:true, text:'kg / pedidos'} }, y1:{ position:'right', beginAtZero:true, grid:{drawOnChartArea:false}, title:{display:true, text:'R$ (estimado)'} } } }
+});
+
+new Chart(document.getElementById('g3'), {
+  data: { labels: D.g3.fatores, datasets: [
+    { type:'bar', order:1, label:'Impacto estimado (R$)', data:D.g3.valores, backgroundColor: D.g3.valores.map((_, i) => i === 0 ? cor('--atraso') : cor('--neutro')) },
+    { type:'line', order:0, label:'% acumulado', data:D.g3.acumulado, yAxisID:'y1', borderColor:cor('--tinta'), backgroundColor:cor('--tinta'), pointRadius:5, tension:0 }
+  ]},
+  options: { ...base, scales:{ y:{ beginAtZero:true, title:{display:true, text:'Impacto estimado (R$)'} }, y1:{ position:'right', min:0, max:100, grid:{drawOnChartArea:false}, title:{display:true, text:'% acumulado'} } }, plugins:{ legend:{position:'bottom'}, tooltip:{ callbacks:{ label:c => c.dataset.yAxisID === 'y1' ? c.parsed.y + '%' : 'R$ ' + fmt(c.parsed.y) } } } }
+});
+
+new Chart(document.getElementById('g4'), {
+  data: { labels: D.g4.cenarios, datasets: [
+    { type:'bar', order:1, label:'Custo logístico (R$ por dia)', data:D.g4.custo, backgroundColor:[cor('--neutro'), cor('--prazo'), cor('--prazo'), cor('--atraso')] },
+    { type:'line', order:0, label:'Pedidos no reforço (por dia)', data:D.g4.reforco, yAxisID:'y1', borderColor:cor('--tinta'), backgroundColor:cor('--tinta'), tension:.25, pointRadius:4 }
+  ]},
+  options: { ...base, scales:{ y:{ beginAtZero:true, title:{display:true, text:'Custo logístico (R$ por dia)'} }, y1:{ position:'right', min:0, max:30, grid:{drawOnChartArea:false}, title:{display:true, text:'Pedidos no reforço'} } }, plugins:{ legend:{position:'bottom'}, tooltip:{ callbacks:{ label:c => c.dataset.yAxisID === 'y1' ? c.dataset.label + ': ' + c.parsed.y : c.dataset.label + ': ' + brl(c.parsed.y) } } } }
+});
+
+new Chart(document.getElementById('g5'), {
+  type:'line',
+  data: { labels: D.g5.quinzenas, datasets: [
+    lin('Lucro esperado (R$ por dia)', D.g5.lucro, '--prazo'),
+    lin('Lucro hoje, tudo no padrão (R$ por dia)', D.g5.quinzenas.map(() => D.g5.lucro_hoje), '--alerta', { borderDash:[6,4], pointRadius:0 }),
+    lin('Cancelamento esperado (%)', D.g5.cancelamento, '--neutro', { yAxisID:'y1' }),
+    lin('Limite de nível de serviço (%)', D.g5.quinzenas.map(() => D.g5.limite), '--suave', { yAxisID:'y1', borderDash:[2,3], pointRadius:0 })
+  ]},
+  options: { ...base, scales:{ y:{ min:400, max:600, title:{display:true, text:'Lucro esperado (R$ por dia)'} }, y1:{ position:'right', min:0, max:25, grid:{drawOnChartArea:false}, title:{display:true, text:'Cancelamento (%)'} } }, plugins:{ legend:{position:'bottom'}, tooltip:{ callbacks:{ label:c => c.dataset.yAxisID === 'y1' ? c.dataset.label + ': ' + c.parsed.y.toLocaleString('pt-BR') + '%' : c.dataset.label + ': ' + brl(c.parsed.y) } } } }
+});
+
+new Chart(document.getElementById('g6'), {
+  type:'bar',
+  data: { labels: D.g6.meses, datasets: [
+    { label:'base', data:D.g6.base, backgroundColor:'transparent', borderWidth:0 },
+    { label:'Experiência do cliente (lucro)', data:D.g6.experiencia, backgroundColor:cor('--prazo') },
+    { label:'Logística (economia)', data:D.g6.logistica, backgroundColor:cor('--neutro') },
+    { label:'Total Jul–Dez', data:D.g6.total_geral, backgroundColor:cor('--atraso') }
+  ]},
+  options: { ...base, scales:{ x:{ stacked:true }, y:{ stacked:true, beginAtZero:true, title:{display:true, text:'Ganho acumulado (R$)'}, ticks:{ callback:v => fmt(v) } } }, plugins:{ legend:{ position:'bottom', labels:{ filter:i => i.text !== 'base' } }, tooltip:{ filter:i => i.dataset.label !== 'base' && i.parsed.y !== null, callbacks:{ label:c => c.dataset.label + ': ' + brl(c.parsed.y) } } } }
+});
+
+// Visão geral: 2025 x 1º sem. 2026 x projeção SMART
+const bar = (label, data, c) => ({ type:'bar', label, data, backgroundColor:cor(c) });
+const rotulos = { plugins:{ legend:{position:'bottom'}, tooltip:{ callbacks:{ label:c => c.dataset.label + ': ' + c.parsed.y.toLocaleString('pt-BR') } } } };
+
+new Chart(document.getElementById('g7'), {
+  data: { labels: D.g7.periodos, datasets: [
+    bar('Tempo de preparo (min)', D.g7.prep, '--atraso'),
+    bar('Desperdício (kg/dia)', D.g7.desp, '--alerta'),
+    bar('Precisão do ciclo (%)', D.g7.prec, '--prazo')
+  ]},
+  options: { ...base, ...rotulos, scales:{ y:{ beginAtZero:true, max:110 } } }
+});
+
+new Chart(document.getElementById('g8'), {
+  data: { labels: D.g7.periodos, datasets: [
+    bar('Taxa de atraso (%)', D.g7.atraso, '--alerta'),
+    bar('Adoção do módulo de motoboy (%)', D.g7.adocao, '--atraso'),
+    bar('Taxa de cancelamento (%)', D.g7.canc, '--neutro')
+  ]},
+  options: { ...base, ...rotulos, scales:{ y:{ beginAtZero:true, max:100, title:{display:true, text:'%'} } } }
+});
+
+new Chart(document.getElementById('g9'), {
+  type:'line',
+  data: { labels: D.g7.periodos, datasets: [
+    lin('Faturamento diário (R$)', D.g7.fat, '--prazo'),
+    lin('Pedidos por dia', D.g7.ped, '--neutro', { yAxisID:'y1', borderDash:[6,4] }),
+    lin('Ticket médio (R$)', D.g7.ticket, '--alerta', { yAxisID:'y1', borderDash:[2,3] })
+  ]},
+  options: { ...base, scales:{ y:{ beginAtZero:true, title:{display:true, text:'Faturamento (R$ por dia)'} }, y1:{ position:'right', beginAtZero:true, grid:{drawOnChartArea:false}, title:{display:true, text:'Pedidos / ticket (R$)'} } } }
+});
+</script>
+</body>
+</html>
