@@ -4,7 +4,7 @@ EVIDÊNCIAS DE MELHORA: 2026/02 (01/07 a 30/11/2026) x 2026/01 (01/01 a 30/06/20
 NOTA DE ORIGEM
 Os valores de 2026/02 seguem a estimativa de melhora do plano (estudo de caso).
 Todas as evidências abaixo são calculadas a partir das tabelas consolidadas
-(dados_consolidados_2026_01_etl.csv e dados_consolidados_2026_02_etl_kpi.csv).
+(dados_consolidados_2026_01.csv e dados_consolidados_2026_02.csv).
 Em uma operação real, cada item deve ser confirmado com os registros do sistema.
 
 
@@ -105,11 +105,11 @@ para 9,4%, tempo de entrega de 49,8 para 39,4 min e precisão de 57,5% para 96,2
 
 7. COMO COMPROVAR (ARQUIVOS E CÓDIGO)
 --------------------------------------------------------------------------------
-- dados_consolidados_2026_02_etl_kpi.csv: tabela diária de 2026/02 (153 dias).
-- Resultados_2026_02_ETL_KPI_Graficos.ipynb: ETL, KPIs, tabela por mês, metas
+- dados_consolidados_2026_02.csv: tabela diária de 2026/02 (153 dias).
+- Resultados_2026_02.ipynb: ETL, KPIs, tabela por mês, metas
   SMART e os 3 gráficos comparativos com 2026/01.
-- resultados_2026_02_por_mes.csv: tabela de resultados por mês.
-- Plano_2026_02_metas_SMART.ipynb e plano_2026_02_quinzenal.csv: trajetória
+- resultados_2026_02.csv: tabela de resultados por mês.
+- Otimizacao.ipynb e dados_consolidados_2026_02.csv: trajetória
   prevista, para comparar o previsto com o obtido.
 
 
