@@ -2,7 +2,7 @@
 
 
 ## Sobre o projeto
-O restaurante de médio porte em expansão Khalas! Esfihas & Shawarma (que em documento constará apenas Khalas, como abreviação) nos contratou para realizar uma analise de dados e auxilio para tomada de decisão, pois no primeiro semestre de 2026, os mesmos tiveram prejuizo significante no delivery.
+O restaurante de médio porte em expansão Khalas! Esfihas & Shawarma (que em documento constará apenas Khalas, como abreviação) nos contratou para realizar uma analise de dados e auxilio para tomada de decisão, pois no primeiro semestre de 2026, os mesmos tiveram prejuízo significante no delivery.
 
 ## Objetivo
 A melhora com a analise de dados prevê:
