@@ -28,8 +28,8 @@ A melhora com a analise de dados prevê:
 - `08-referencias/`: fontes consultadas.
 
 ## Como executar
-Para executar os programas e abrir os arquivos e se manterem em formação é recomendado que utilize o Excel para arquivos .xlsx e o Google Colab para arquivos .ipynb (foram utilizadas as bibliotecas: os , numpy , pandas , matplotlib.pyplot , re , seabor , json e IPython.display ).
-Os arquivos .csv são unicamente para interpretação do Colab, não sendo necessário abri-los.
+Para executar os programas/abrir os arquivos e se manterem em formação é recomendado que utilize o Excel para arquivos .xlsx e o Google Colab para arquivos .ipynb (foram utilizadas as bibliotecas: os , numpy , pandas , matplotlib.pyplot , re , seabor , json e IPython.display ).
+Os arquivos .csv são unicamente para interpretação do Google Colab, não sendo necessário abri-los.
 Os arquivos .pdf , .txt , .md , .png , .html e outros, podem ser abertos com o software padrão do computador.
 
 ## Vídeo
