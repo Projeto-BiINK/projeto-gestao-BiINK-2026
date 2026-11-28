@@ -1,4 +1,4 @@
-# Projeto de Otimização e Melhora do Delivery - Khalas
+# Projeto em Gestão de Sistemas Computacionais - Khalas
 
 
 ## Sobre o projeto
