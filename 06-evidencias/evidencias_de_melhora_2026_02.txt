@@ -1,0 +1,125 @@
+EVIDÊNCIAS DE MELHORA: 2026/02 (01/07 a 30/11/2026) x 2026/01 (01/01 a 30/06/2026)
+================================================================================
+
+NOTA DE ORIGEM
+Os valores de 2026/02 seguem a estimativa de melhora do plano (estudo de caso).
+Todas as evidências abaixo são calculadas a partir das tabelas consolidadas
+(dados_consolidados_2026_01_etl.csv e dados_consolidados_2026_02_etl_kpi.csv).
+Em uma operação real, cada item deve ser confirmado com os registros do sistema.
+
+
+1. RESUMO
+--------------------------------------------------------------------------------
+Os 7 KPIs do projeto melhoram, as 4 metas SMART são atingidas e mantidas dentro
+do prazo, e o faturamento por dia sobe 17,5% (de R$ 2.052,32 para R$ 2.411,29).
+A melhora é progressiva: aparece mês a mês, e não em um único salto.
+
+
+2. EVIDÊNCIAS POR META SMART
+--------------------------------------------------------------------------------
+Critério: a meta conta como atingida na data a partir da qual a média móvel de
+14 dias fica no valor da meta ou melhor e se mantém até 30/11/2026.
+
+Meta 4 - Adoção do módulo de motoboy >= 80% (prazo: 28/07/2026)
+  2026/01: 25,14%
+  2026/02: 87,26% na média; 90,47% em novembro
+  Atingida e mantida desde 23/07/2026 (5 dias antes do prazo)
+  Dias com adoção >= 80%: 139 de 153
+  Fonte: coluna adocao_modulo_motoboy_%
+
+Meta 1 - Redução de atrasos de 20% (prazo: 29/09/2026)
+  Tempo de entrega: 55,22 min -> 43,76 min (-20,8%); alvo <= 44,2 min
+  Pedidos com atraso: 43,71% -> 33,56% (-23,2%)
+  Atingida e mantida desde 11/09/2026 (18 dias antes do prazo)
+  Dias com entrega <= 44,2 min: 87 de 153
+  Fonte: colunas tempo_medio_entrega_min e pedidos_com_atraso
+
+Meta 2 - Redução de desperdício de no mínimo 15% (prazo: 31/03/2027)
+  2026/01: 12,86 kg/dia
+  2026/02: 11,00 kg/dia na média (-14,5%); 9,82 kg/dia em novembro (-23,6%)
+  Alvo <= 10,93 kg/dia, atingido e mantido desde 16/10/2026
+  Uso da previsão de demanda: 0% em 2026/01 e 100% a partir de 30/09/2026
+  Fonte: colunas alimentos_descartados_kg e uso_previsao_demanda_%
+
+Meta 3 - Precisão do status do ciclo >= 95% (prazo: 31/12/2026)
+  2026/01: 52,69%
+  2026/02: 79,34% na média; 95,00% em novembro
+  Atingida e mantida desde 22/11/2026 (39 dias antes do prazo)
+  Fonte: coluna precisao_status_ciclo_%
+
+
+3. EVIDÊNCIAS POR KPI (2026/01 x 2026/02)
+--------------------------------------------------------------------------------
+KPI                          2026/01      2026/02      Variação
+Taxa de cancelamento         19,20%       12,81%       -33,3%
+Tempo de preparo (min)       49,84        39,23        -21,3%
+Desperdício (kg/dia)         12,86        11,00        -14,5%
+Tempo de entrega (min)       55,22        43,76        -20,8%
+Pedidos com atraso           43,71%       33,56%       -23,2%
+Precisão do status           52,69%       79,34%       +50,6%
+Adoção do motoboy            25,14%       87,26%       +247,1%
+Pedidos entregues/dia        37,31        42,37        +13,5%
+Faturamento por dia (R$)     2.052,32     2.411,29     +17,5%
+
+
+4. EVIDÊNCIAS FINANCEIRAS E OPERACIONAIS (período de 153 dias)
+--------------------------------------------------------------------------------
+- Faturamento total de 01/07 a 30/11: R$ 368.927,24.
+- Faturamento adicional vs. o nível diário de 2026/01: cerca de R$ 54.922,
+  vindo de mais pedidos entregues (+5,06 por dia) e de um ticket maior
+  (R$ 56,92 contra R$ 55,00, com combos e reajuste de preços).
+- Cancelamentos evitados: cerca de 475 pedidos. Com o custo médio de R$ 44,00
+  por cancelamento (reembolso e perda, dado de 2026/01), são cerca de
+  R$ 20.917 em reembolsos e perdas evitados.
+- Pedidos atrasados evitados: cerca de 755.
+- Desperdício evitado: cerca de 285 kg de alimentos.
+- Julho fecha acima de junho: R$ 65.515,77 contra R$ 59.510,00 (+6,5% por dia).
+
+
+5. EVIDÊNCIA DE PROGRESSÃO MÊS A MÊS (2026/02)
+--------------------------------------------------------------------------------
+Mês        Cancel.   Entrega   Precisão   Adoção   Desperd.   Entregues   Faturamento
+           (%)       (min)     (%)        (%)      (kg/dia)   (por dia)   (R$)
+Julho      18,14     48,92     60,23      76,67    11,86      38,13       65.515,77
+Agosto     15,59     45,92     71,84      88,98    11,82      41,58       72.835,70
+Setembro   12,56     43,33     81,26      90,17    10,94      42,00       72.184,09
+Outubro     9,64     41,01     88,92      90,21    10,54      44,16       78.710,86
+Novembro    8,29     39,49     95,00      90,47     9,82      46,07       79.680,82
+
+Todos os indicadores melhoram de forma contínua de julho a novembro. Comparando
+a 1ª quinzena de julho com a 2ª quinzena de novembro: cancelamento de 17,8%
+para 9,4%, tempo de entrega de 49,8 para 39,4 min e precisão de 57,5% para 96,2%.
+
+
+6. EVIDÊNCIA DE CONSISTÊNCIA
+--------------------------------------------------------------------------------
+- A melhora aparece na média móvel de 14 dias e não depende de dias isolados.
+- Nos dias de pico a melhora aparece mais tarde: em 05/07 (jogo do Brasil) o
+  cancelamento foi de 20,3% e em 09/08 (Dia dos Pais) de 18,2%, ainda perto da
+  base de 19,2%. Em 12/10 (Dia das Crianças) caiu para 10,1% e em 27/11 (Black
+  Friday) para 2,4%. Os picos de julho e agosto indicam necessidade de reforço
+  de equipe nesses dias.
+- A precisão de 95% é atingida em 16 dos 30 dias de novembro, e a média do mês
+  fica em 95,00%.
+
+
+7. COMO COMPROVAR (ARQUIVOS E CÓDIGO)
+--------------------------------------------------------------------------------
+- dados_consolidados_2026_02_etl_kpi.csv: tabela diária de 2026/02 (153 dias).
+- Resultados_2026_02_ETL_KPI_Graficos.ipynb: ETL, KPIs, tabela por mês, metas
+  SMART e os 3 gráficos comparativos com 2026/01.
+- resultados_2026_02_por_mes.csv: tabela de resultados por mês.
+- Plano_2026_02_metas_SMART.ipynb e plano_2026_02_quinzenal.csv: trajetória
+  prevista, para comparar o previsto com o obtido.
+
+
+8. LIMITAÇÕES
+--------------------------------------------------------------------------------
+- Os valores de 2026/02 são resultados esperados do plano, não medições da
+  operação. A validação final exige os registros reais do sistema.
+- O ticket de 2026/01 é fixo em R$ 55,00 no ETL, então parte do ganho de
+  faturamento vem de reajuste de preços e não de melhora operacional.
+- A meta de atrasos fala em "tempo médio de atraso", mas não há essa coluna nas
+  tabelas. Usamos o tempo médio de entrega e a taxa de pedidos atrasados.
+- O custo de R$ 44,00 por cancelamento é a média observada em 2026/01 e foi
+  aplicado a 2026/02.
